@@ -1,0 +1,415 @@
+body {color: #000066;  background-color: #F3E8B0;}
+
+/* this is the salmon colour hex code: #ec3e4f */
+a { color: #000066; }
+
+/* header area styles */
+#masthead { background-color: #F3E8B0; }
+#masthead-links ul { color: #000066; }
+#masthead-links ul li { border:0; }
+#masthead-links ul li a { color: #000066; text-decoration: none; }
+#masthead-links ul li a:hover { text-decoration: underline; background-color: #000066; color: #EFEAC2; }
+
+#banner-and-navs { background-color: #F3E8B0; }
+#page-heading a { color: #000066; text-decoration: none; }
+header h1, #page-heading span, section h1 { color: #000066; background-color: #DFD179; }
+section h1 { border: 0; }
+
+#top-nav { background-color: #DFD179;}
+#top-nav .sys_content {background-color: #484848;}
+#top-nav ul#top-nav-menu { color: #000066; background-color: #DFD179;}
+#top-nav ul#top-nav-menu li a { color: #000066; text-decoration: none; border:0; background: #DFD179 url('../img/top-link-bg-low.png') no-repeat center right; }
+#top-nav ul#top-nav-menu li a.sys_top-nav-home { background: none; display: none; }
+#top-nav ul#top-nav-menu li a:hover { color: #EFEAC2; background: #000066 url('../img/top-link-bg-low-hover.png') no-repeat center right; }
+#top-nav ul#top-nav-menu li.sys_selected a { color: #000066; background: url('../img/top-link-bg-low-hover.png') no-repeat center right;} 
+#top-nav ul#top-nav-menu li a.sys_last { border-right: none; }
+#top-nav #top-nav-menu > li { background-color: #484848; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_groupheadnolink { color: #006; }
+
+@media screen and (max-width:980px) {
+	#top-nav ul#top-nav-menu > li {background-color:transparent;}
+	#top-nav ul#top-nav-menu > li:first-child a {background:0;}	
+	#top-nav ul#top-nav-menu li a:link, #top-nav ul#top-nav-menu li a:visited {color:#000066;}
+	#top-nav ul#top-nav-menu li a:hover {background-color: #000066; color: #DFD179;}
+}
+#top-nav .sys_site-search{background:#DFD179;}
+#top-nav .sys_site-search label { background: #b7af7e; color: #000066;}
+#top-nav .sys_site-search input {border-color: #929396; color: #000066; background-color: #F3E8B0;}
+#top-nav .sys_site-search input[type="image"] { border: none; background: none; }
+#top-nav #search-trig span.sys_icon-up-open {display:none;}
+#top-nav #search-trig.sys_active-trig span.sys_icon-up-open {display:block;}
+#top-nav #search-trig.sys_active-trig span.sys_icon-down-open {display:none;}
+
+@media screen and (max-width:980px) {
+	#top-nav .sys_site-search {background-color:#DFD179;}
+}
+
+@media screen and (min-width:980px) {
+	#top-nav .sys_site-search {display:block!important;}
+}
+
+#top-nav ul#top-nav-menu li.sys_mob-side.sys_close a {list-style:none; color:#000066!important; border:0; background:0!important;}
+
+#top-nav ul#top-nav-menu .sys_mega-menu {background-color: #dfd179!important; border: 1px solid #333!important;}
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header {border-bottom: 1px solid #DFD179;}
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header a {background:0; border:0; color: #000066; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li a {background:0; border:0; color: #000066; text-decoration: none;}
+#top-nav ul#top-nav-menu .sys_mega-cta a {background:0; color:#DFD179!important; background-color:#000066;}
+#top-nav ul#top-nav-menu .sys_mega-cta {background-color:#000066;}
+#top-nav ul#top-nav-menu .sys_mega-cta a img { border: none; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li a:hover{color:#000066;}
+	
+@media screen and (max-width:980px) {	
+	body #top-nav ul#top-nav-menu .sys_mega-menu {background-color: #b9ad63!important;}
+	#top-nav ul#top-nav-menu .sys_mega-menu {top:0; background-color:#666; border:0;}
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li.sys_group-header {background-color:transparent; border:0;}
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li {background-color:#555; border:0; background-color:#666;}
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li a {color:#fff;}
+	#top-nav ul#top-nav-menu li .sys_mega-col .sys_mega-cta a {border:0;}
+	#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header a { border:0; color:#000066;}
+	#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header {border:0; background:0;}
+}
+
+#section-nav .sys_content {background-color: #484848; border-bottom: 1px solid #F3E8B0;}
+#section-nav ul#section-menu { color: #000066; background-color:#DFD179;}
+#section-nav ul#section-menu li a {color: #000066; text-decoration: none; border:0;}
+#section-nav ul#section-menu li a:hover { background-color:#000066; color: #EFEAC2; }
+#banner-and-navs #section-nav ul#section-menu li.sys_selected a { color: #EFEAC2; border-right: none; }
+#banner-and-navs #section-nav ul#section-menu li.sys_selected a:hover { background-color: #000066; color: #EFEAC2; }
+#section-nav ul#section-menu li.sys_selected { background-color: #000066; color:#EFEAC2; }
+#banner-and-navs #section-nav ul#section-menu li a.sys_last, #banner-and-navs #section-nav ul#section-menu li a.sys_first { border-right: none; }
+#section-nav ul#section-menu li:hover{background: #000066;}
+#section-nav ul#section-menu li:hover a{color:#EFEAC2;}
+ 
+/* page body area styles */
+#page-body section { background-color: #F3E8B0; }
+section.sys_grey, .sys_back-to-top.sys_grey { background-color: transparent; }
+section.sys_white { background-color: #EFEAC2;}
+section h2 { color: #000066 !important; background-color: #DFD179; border:0;}
+section h3 { color: #000066; background-color: #F3E8B0; }
+section .sys_span6 h3, section .sys_span6 h4 { border: none; color: #000066; background-color: #DFD179;}
+section .sys_span6 h2, section .sys_span8 h2, section .sys_span4 h2, section .sys_section-content-tab h2, section .sys_subheads h2 { color: #000066; background-color: #DFD179; }
+section .sys_span6 h2, section .sys_span8 h2, section .sys_span4 h2, section .sys_section-content-tab h2, section .sys_subheads h2 { color: #000066; background-color: #DFD179; }
+section .sys_span6 h3, section .sys_span8 h3, section .sys_span4 h3, section .sys_section-content-tab h3, section .sys_subheads h3 { color: #000066; background-color: #DFD179; }
+section .sys_span6 h4, section .sys_span8 h4, section .sys_span4 h4, section .sys_section-content-tab h4, section .sys_subheads h4 { color: #000066; background-color: #DFD179; }
+section .sys_span6 h5, section .sys_span8 h5, section .sys_span4 h5, section .sys_section-content-tab h5, section .sys_subheads h5 { color: #000066; background-color: #DFD179; }
+section .sys_span6 h6, section .sys_span8 h6, section .sys_span4 h6, section .sys_section-content-tab h6, section .sys_subheads h6 { color: #000066; background-color: #DFD179; }
+section address { background-color:#DFD179; }
+section h4 { background-color: #DFD179; }
+section ul { background-color: #DFD179; }
+section table caption { color: #000066; }
+section table, section table th, section table td { border: 1px solid #000066; background-color: #DFD179; }
+section table th { color: #000066; }
+section h3, section h4, section h5, section h6 { color: #000066!important; border: 0;}
+
+/* dark-grey-section used for intro box at the top of each page */ 
+.sys_dark-grey-section { background-color: #DFD179; color: #000066; }
+section .sys_dark-grey-section p { background-color:#DFD179; }
+#page-body .sys_video-image .sys_caption { background-color: #dfd179; }
+#page-body .sys_video-image .sys_play-arrow { background: url('../img/play-arrow-res-low2.png') no-repeat top right; }
+#page-body .sys_video-image .sys_play-arrow-hover { background: url('../img/play-arrow-res-low2.png') no-repeat top right; }
+#page-body .sys_video-image .sys_caption p { color: #000066; background:transparent;}
+.sys_dark-grey-section a { color: #006; }  
+
+/* entry requirements on course page */
+.sys_entry-reqs, .sys_key-facts { background-color: #DFD179; color: #000066; }
+section .sys_entry-reqs h3, section .sys_key-facts h3 { color: #000066; border-color: #fff; background-color: #DFD179; }
+
+/* list of fees on course page */
+section p.sys_fees-list { border-bottom: 1px solid #6d6e71;}
+
+/* signposts refers to the large signpost tiles on key pages */ 
+.sys_signposts { background-color: #DFD179; }
+
+section .sys_signposts h3 { color: #000066; background-color: #DFD179; }
+.sys_signposts h3 a { display: block; color: #000066; text-decoration: none; background-color: #DFD179 }
+.sys_signposts h3 a:hover { text-decoration: underline; background-color: #000066; color: #EFEAC2; }
+.sys_signposts h4 { color: #000066; background-color: #DFD179; }
+.sys_signposts h4 a, .sys_signposts .carousel h4 a { display: block; color: #000066; text-decoration: none; background-color: #DFD179; }
+.sys_signposts h4 a:hover { text-decoration: underline; background-color: #000066; color: #EFEAC2;}
+.sys_signposts img { background-color: #DFD179; }
+.sys_signposts-linksonly li a { color: #000066; }
+
+/* smaller text sizes for signposts on three column pages (rather than two column) */
+.sys_signposts .sys_span4 h3, .sys_signposts .sys_span3 h3 { background-color: #DFD179; }
+.sys_signposts .sys_span3 h3 {background-color: #F3E8B0;}
+.sys_signposts .sys_span h3 a:hover {background-color: #000066; color: #EFEAC2; }
+.sys_signposts .sys_span4 h4, .sys_signposts .sys_span3 h4 {background-color: #DFD179; }
+
+/* large quote stripe across page with quote marks image */
+aside.sys_quote { background-color: #EFEAC2; }
+aside.sys_quote p { color: #000066;}
+
+/* up arrow that scrolls you back up to previous story on long pages */
+
+/* set of tabs within an individual section */
+ul.sys_section-tabs li {background-color: #c0bab5;}
+ul.sys_section-tabs li a { color: #DFD179; background-color: #000066; text-decoration: none;}
+ul.sys_section-tabs li.sys_selected { background-color: #f6f5f5;  } 
+ul.sys_section-tabs li.sys_selected a { color: #000066; background-color: #DFD179; }
+ul.sys_section-tabs li a:hover { color: #EFEAC2; background-color: #000066; }
+ul.sys_section-tabs li.sys_selected a:hover { color: #000066; background-color: #DFD179; }
+
+section .sys_section-content { background-color: #DFD179;}
+#page-body .sys_section-content h4 {background-color: #DFD179; }
+.sys_section-content h3 { border: none; color: #000066; background-color: #DFD179; }
+#page-body .sys_section-content p.sys_tabHeading, #page-body .sys_section-content .sys_span6 p.sys_tabHeading, #page-body .sys_section-content .sys_span12 p.sys_tabHeading, #page-body .sys_section-content .sys_span8 p.sys_tabHeading { color: #000066;}
+#page-body .sys_section-content p { color: #000066;}
+.sys_section-content li { color:#000066; }
+
+.sys_grey ul.sys_section-tabs li.sys_selected { background-color: #fff; }
+.sys_grey .sys_section-content { background-color: #DFD179; }
+
+
+.sys_back-to-top a img { border: none; }
+
+/* end of page body styles */ 
+
+/* footer styles */
+footer { background-color: #DFD179;}
+footer .sys_footer-block { color: #000066; }
+footer .sys_footer-block h2 {color: #000066;}
+footer .sys_footer-block h2 a {color:#000066;}
+footer .sys_footer-block h2 a:hover {background: #000066 url('../img/active-breadcrumb-menu-link-bg-access-res-low-hover.png') no-repeat center right; color:#EFEAC2;}
+footer .sys_footer-block p, footer .sys_footer-block address, footer .sys_footer-block li { background-color: #DFD179;}
+footer .sys_footer-block p  {background-color: #DFD179;}
+footer .sys_footer-block a { color: #000066; }
+footer .sys_footer-block ul { background-color: #DFD179;}
+footer .sys_footer-block select { color: #929292; }
+
+/* end of footer styles */
+
+/* styles for when each top element is docked (generic to all pages) */
+body.sys_top-nav-fixed #top-nav { background-color: #F3E8B0;} 
+body.sys_top-header-fixed #page-heading { background-color: #F3E8B0;}
+body.sys_top-header-fixed h1 { background-color:#DFD179 }
+
+
+/* end of docked styles */
+
+/* active breadcrumbs styles */
+#active-breadcrumbs { background-color: #DFD179; border-bottom: 1px solid #F3E8B0; border-top: 1px solid #F3E8B0; }
+#active-breadcrumbs ul.sys_topbread { color: #929292;}
+#active-breadcrumbs ul.sys_topbread li { background: url('../img/active-breadcrumb-menu-link-bg-lowcontrast.png') no-repeat right center #DFD179; }
+#active-breadcrumbs ul.sys_topbread li a { color: #000066; text-decoration: none; }
+#active-breadcrumbs ul.sys_topbread li.sys_first { padding-left: 10px; }
+#active-breadcrumbs ul.sys_topbread li a:hover { color:#000066; }
+#active-breadcrumbs ul.sys_topbread li:hover { color:#000066; }
+#active-breadcrumbs ul.sys_topbread li:hover a { color:#000066; }
+
+
+/*overrides for accessibility contrast colours*/
+p {}
+
+
+@media screen and (max-width:980px) {
+	#active-breadcrumbs {display:none;}
+}
+
+
+#section-nav ul#section-menu {height: 35px;}
+#section-nav ul#section-menu li {background-color:transparent;}
+#active-breadcrumbs ul.sys_topbread li.sys_last { background: url('../img/active-breadcrumb-menu-link-bg-lowcontrast.png') no-repeat right center #DFD179; color: #000066;}
+#active-breadcrumbs ul.sys_topbread li.sys_topselected, #active-breadcrumbs ul.sys_topbread li.sys_last.sys_topselected { background: url('../img/active-breadcrumb-menu-link-bg-lowcontrast.png') no-repeat scroll right center #DFD179; }
+#active-breadcrumbs ul.sys_topbread li.sys_last a { padding-right: 34px; }
+#active-breadcrumbs ul.sys_topbread li.sys_last:hover {}
+
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected { color: #000066; background: none;}
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected a { color: #929292; border-right: none;}
+
+#active-breadcrumbs ul.sys_subnav { background-color: #DFD179; list-style: disc url('../img/breadcrumb-subnav-li-img.gif');  border: 1px solid #000066;}
+#header #active-breadcrumbs ul.sys_subnav li { background: none; list-style: disc url('../img/breadcrumb-subnav-li-img.png'); }
+#active-breadcrumbs ul.sys_subnav li a { color: #000066; text-decoration: none;}
+#active-breadcrumbs ul.sys_topbread li {}
+#active-breadcrumbs ul.sys_topbread li.sys_selected{background: 0!important;}
+
+#header #active-breadcrumbs ul.sys_subnav li.sys_selected { color: #222; list-style: url('../img/mega-menu-item-bg2.png'); }
+#header #active-breadcrumbs ul.sys_subnav li.sys_selected a { color: #222;}
+
+
+
+/* research area-specific styles */
+
+ #banner-and-navs { background-color: #DFD179 !important; }
+ #top-nav { background-color: #DFD179!important;}
+ #top-nav .sys_container {background-color:transparent;}
+ #section-nav {background-color:transparent;}
+ h1 { background-color: #DFD179!important; color: #000066; }
+ h1  a{ background-color: #DFD179; color: #000066; }
+ h2 { color: #000066; background-color: #DFD179; }
+ h3 { color: #000066; background-color: #DFD179; }
+
+ #team-tab { display: block; }
+
+
+/* accommodation area-specific styles */
+
+.sys_living-here #banner-and-navs { background-color: #F3E8B0; background-image: url('../img/banner-living2.jpg'); }
+.sys_living-here #top-nav { background-color: #F3E8B0; }
+.sys_living-here h1 { background-color: #DFD179; color:#000066; }
+.sys_living-here h2 { color: #000066; background-color: #DFD179}
+.sys_living-here h3 { color: #000066; background-color: #DFD179}
+.sys_living-here th { color: #000066; background-color: #DFD179}
+
+.sys_living-here #section-nav .sys_container { border-bottom: 0; }
+.sys_living-here #section-nav ul#section-menu li a { border-right: 1px solid #c6c6c7; }
+.sys_living-here #section-nav ul#section-menu li a:hover { background-color: #000066; color: #EFEAC2; }
+.sys_living-here #section-nav ul#section-menu li.sys_selected { background-color: #000066; }
+
+
+@media screen and (max-width:980px) {
+	#section-nav .sys_container {border-bottom:0!important;}
+}
+
+.sys_living-here #active-breadcrumbs { border-bottom: 0; display: block; }
+.sys_living-here ul.sys_topbread li { }
+.sys_living-here #active-breadcrumbs ul.sys_topbread li.sys_last {background: url('../img/active-breadcrumb-menu-link-bg-access.png') no-repeat right center #DFD179;}
+.sys_living-here #active-breadcrumbs ul.sys_subnav li.sys_selected { color: #000066; list-style: url('../img/breadcrumb-subnav-sel-img-blue.gif'); }
+.sys_living-here #active-breadcrumbs ul.sys_subnav li.sys_selected a { color: #000066; background: url('../img/breadcrumb-subnav-sel-bg-blue.gif') no-repeat center right;}
+.sys_living-here #active-breadcrumbs ul.sys_topbread li.sys_last:hover {}
+
+
+/* course page-specific styles */
+
+.sys_course-page #banner-and-navs { background-color: #F3E8B0; background-image: url('../img/banner.jpg'); }
+.sys_course-page #top-nav { background-color: #F3E8B0; }
+.sys_course-page #page-heading { padding-top: 152px; }
+.sys_course-page h1 { background-color: #DFD179; width: 780px; margin-bottom: 9px; background-color: #F3E8B0; color: #000066;}
+.sys_course-page h2 { color: #000066; background-color: #DFD179 }
+.sys_course-page h3 { color: #000066; background-color: #DFD179}
+/*.sys_course-page section { padding-bottom: 16px; }*/
+
+#course-nav .sys_container { /*overflow: auto;*/ border-bottom: 1px solid #DFD179;  } 
+
+.sys_course-page.sys_course-nav-fixed #course-nav { background-color: #F3E8B0; }
+
+#course-nav ul { color: #fff; }
+#course-nav ul li a:focus, #course-nav ul li a:active, #course-nav ul li a:hover {color: #EFEAC2; background-color: transparent;}
+#course-nav ul li a {color: #000066; background-color:#DFD179; text-decoration: none; background-color: transparent;}
+#course-nav li {background-color: #DFD179;}
+#course-nav li.sys_apply {background-color: #000066;   }
+#course-nav li.sys_apply a { background: url('../img/apply-now-bg-green.png') no-repeat top right; padding-right: 25px; color: #DFD179;}
+#course-nav li.sys_selected { background-color: #000066; }
+#course-nav li.sys_selected a{ background-color: #000066; color: #DFD179; }
+#course-nav ul li:hover {color: #EFEAC2; background-color:#000066;}
+
+
+
+/* styles for when each top element is docked (research area-specific) */
+
+.sys_top-nav-fixed #top-nav { background-color: #F3E8B0; } 
+
+.sys_top-header-fixed #page-heading { background-color: #F3E8B0;}
+
+.sys_top-header-fixed #page-heading, .sys_section-nav-fixed #section-nav, .sys_section-nav-fixed #section-nav  {background-color: #DFD179!important; width: 100%;} 
+.sys_section-nav-fixed #section-nav .sys_content { border-bottom: none; }
+
+.sys_section-nav-fixed #active-breadcrumbs {background-color: #fff; /*z-index: 20; */}
+.sys_section-nav-fixed #active-breadcrumbs { background-color: #DFD179!important;  }
+.sys_section-nav-fixed #active-breadcrumbs { background-color: #DFD179;  }
+/* end of docked styles for research pages */
+
+
+@media screen and (max-width:980px) {
+	.sys_living-here.sys_section-nav-fixed #section-nav .sys_container {padding: 0px 20px 15px; margin-bottom: 10px;} 
+}
+
+.sys_living-here.sys_section-nav-fixed #active-breadcrumbs {background-color: #fff;}
+.sys_living-here.sys_section-nav-fixed #active-breadcrumbs { background-color: #DFD179;  }
+/* end of docked styles for living here pages */
+
+
+/* styles for when each top element is docked (course page-specific) - REVISIT THIS WHEN COURSE PAGE IS DONE - SOME COULD BE DELETED */
+
+body.sys_course-nav-fixed #course-nav { background-color: #DFD179; } 
+body.sys_course-nav-fixed #course-nav li.sys_selected a { color: #DFD179; }
+
+/* end of docked styles for course pages */
+
+
+/* VERY IMPORTANT - accessibility: focus on links when using the keyboard to scroll through site */
+
+#header a:focus, #header a:active, nav a:focus, nav a:active , #top-nav-menu li:focus, #top-nav-menu li:active, h1 a:focus, h1 a:active, h2 a:focus, h2 a:active, h3 a:focus, h3 a:active, h4 a:focus, h4 a:active, li a:active, li a:focus, icon-home:active, icon-home:focus, /page-body a:focus, #page-body a:active, footer a:focus, footer a:active { background-color: #000066 !important; color: #DFD179 !important; outline: solid; outline-color:#000066; border:0; outline-style:none !important; }
+
+.sys_mobile-apply-now a { color:#F3E8B0; }
+.sys_highlight-box { background: #DFD179; }
+.sys_highlight-box p, .sys_key-facts p { color: #000066; border-bottom: 1px solid #F3E8B0; }
+.sys_entry-reqs, .sys_key-facts, .sys_highlight-box { color: #000066; }
+
+/* CTA bar high contrast styles */
+.sys_cta-bar-primary, .sys_cta-bar-secondary { background: url('../img/cta-bg-lowcontrast-noicon.png') no-repeat right top; }
+.sys_cta-bar-primary a, .sys_cta-bar-secondary a { color: #000066; }
+.sys_cta-bar-primary a:hover, .sys_cta-bar-secondary a:hover { text-decoration: underline; }
+#page-body .sys_cta-bar-primary p.sys_cta-subtext, #page-body .sys_cta-bar-secondary p.sys_cta-subtext { color: #000066; }
+#page-body .sys_cta-bar-no-arrow p.sys_cta-no-arrow-header { color: #006; }
+
+/* full-width pull quote, and text color of in-column quote */
+#page-body aside.sys_quote { background-color: #DFD179; }
+#page-body aside.sys_quote blockquote, section blockquote { color: #000066; }
+
+#page-body section .imagecaption, #page-body section .sys_dark-grey-section .imagecaption, #page-body section .videocaption, #page-body section .sys_dark-grey-section .videocaption { color: #000066; }
+
+
+/* form styles */
+#page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_sectionbreak .sys_sectionbreak-header, #page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_cms-form-item { color: #000066; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li input, #page-body .sys_cms-form-control ul.sys_cms-form-body li select, #page-body .sys_cms-form-control ul.sys_cms-form-body li textarea, #page-body .sys_cms-form-control ul.sys_cms-form-body li label, #page-body .sys_cms-form-control ul.sys_cms-form-body li .sys_legend, #page-body .sys_cms-form-control ul.sys_cms-form-body li .sys_fieldlabel, #page-body .sys_cms-form-control ul.sys_cms-form-body li div label, #page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_sectionbreak .sys_sectionbreak-text, #page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_cms-form-item div { color: #000066; }
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .sys_uneditable-input { background-color: #DFD179; border: 1px solid #000066; color: #000066; }
+#page-body .sys_theme-simple.sys_formrendercontrol-themed { background: #DFD179; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li button { color: #000066; background: #DFD179; border: 1px solid #000066; }
+#page-body .sys_cms-form-body .sys_instructions { background: #DFD179; border: 1px solid #000066; }
+
+/* Colours for the event calendar (can be overidden by accessibility if needed */
+#event-calendar-container .sys_cal-event-cell { background-color: #dfd179; }
+#event-calendar-container .sys_fc-state-highlight { background-color: #f3e8b0; }
+
+#event-calendar-container .sys_cal-event-normal{     background-color: #b0b0ff; border-color: #006; color: #006; } /* Study here blue */
+#event-calendar-container .sys_cal-event-compact{    background-color: #b08888; border-color: #006; color: #006; } /* Interesting wine */
+#event-calendar-container .sys_cal-event-he-sv{      background-color: #b0e8e8; border-color: #006; color: #006; } /* About us taupe */
+#event-calendar-container .sys_cal-event-postgrad{   background-color: #f3b0b0; border-color: #006; color: #006; } /* Research red */
+#event-calendar-container .sys_cal-event-applicant{  background-color: #f3e8b0; border-color: #006; color: #006; } /* International purple */
+#event-calendar-container .sys_cal-event-ug-campus{  background-color: #b0e8b0; border-color: #006; color: #006; } /* Living here green */}
+
+#event-calendar-container .fc-state-default {
+  background-image: none;
+  background-color: #dfd179;
+  color: #006;
+}
+
+#page-body .sys_theme-simple .sys_events-control, #page-body .sys_theme-simple .sys_datarepeatercontrol .sys_subitem { background-color: #F3E8B0; }
+
+/* News listings */
+
+#page-body .sys_grey .sys_theme-simple .sys_datarepeatercontrol .sys_subitem { #dfd179; }
+.sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem dl dd.sys_news-description { color: #006; }
+#page-body .sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading { border-bottom: 1px solid #006; }
+.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_page a { border: 1px solid #006; }
+
+/* End of news listings */ 
+
+/* course search boxes */
+section .sys_searchcontrol .sys_searchboxheader { color: #006; border-bottom: 1px solid #006; }
+section .sys_searchcontrol { background-color: #dfd179; border: 1px solid #006; }
+
+.sys_highlight-box a { color: #006; }
+.sys_highlight-box a:hover { color: #006; }
+
+/* course data capture form */
+#page-body #contact .sys_course-data-capture .sys_sectionbreak-header { color: #006; } 
+#contact .sys_course-data-capture .sys_cms-form-control ul.sys_cms-form-body li label, #contact .sys_course-data-capture .sys_cms-form-control ul.sys_cms-form-body li .sys_legend { color: #006; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li input { color: #006; }
+#contact .sys_course-data-capture ul li.sys_buttons button { color: #006; }
+	
+#page-body aside p.sys_pullquote-attr { color: #006; }
+
+/* open days keyword search */
+.sys_odays-keyword-search { background-color: #dfd179; border: 1px solid #006; }
+.sys_odays-keyword-search label { color: #006; border-bottom: 1px solid #006; }
+
+/* additions for new campaign pages */
+.sys_signposts-plink .sys_span4 a, .sys_signposts-plink .sys_span6 a { color: #006; }
+h1 span.title-first-line, h1 span.title-first-line-all-yellow, h1 span.title-middle-line, h1 span.title-last-line, #page-body aside.sys_quote, 
+.title-yellow { color: #006 !important; background-color: #dfd179 !important; }
+.sys_cta-bar-campaign { background-color: #dfd179; }
+.sys_cta-bar-campaign a { color: #006; }
+#page-body section .sys_cta-call-us p { color: #006; }
+#page-body section .sys_cta-call-us .sys_cta-subtext p { color: #006; }

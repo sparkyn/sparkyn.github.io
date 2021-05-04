@@ -1,0 +1,107 @@
+section .sys_carousel-item .heading-pin, .heading-pin, section .sys_carousel-item .sys_heading-pin-auto h2, section .sys_carousel-item .sys_heading-pin-auto h3, section .sys_carousel-item .sys_heading-pin-auto h4 {
+	text-align: center;
+	border: none;
+	padding-top: 180px;
+    position: relative;
+    margin-bottom: 0;
+    color: #d50045;
+    font-size: 1.6rem;
+    margin-top: 24px;
+}
+.sys_heading-pin {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 138px;
+    height: 137px;
+    border: none;
+    -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    border-radius: 55% 50% 80% 5% / 80% 50% 55% 5%;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color:  rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #d50045;
+    -webkit-transform: rotateX(-45deg);
+    transform: rotate(-45deg);
+	z-index: -10;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+    margin-left: -69px;
+}
+.heading-pin-subtext, #page-body section p.heading-pin-subtext, #page-body section p.sys_heading-pin-subtext {
+    text-align: center;
+    color: #d50045;
+    font-size: 1.6rem;
+    margin-bottom: 24px;
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.sys_pin-num {
+	font-family: Vast Shadow;
+    font-size: 130px;
+    font-weight: normal;
+    transform:  skewY(-10deg) scale(0.6, 1);
+    border: none;
+    padding-bottom: 100px;
+    text-shadow: -15px 12px 8px rgba(0, 0, 0, 0.44);
+    color: #fff;
+    position: absolute;
+    top: 53px;
+	left: 50%;
+	margin-left: -50px;
+	display: inline-block;
+	width: 100px;
+}
+#page-body section blockquote {
+    background: url('/_design/img/icon-quote-pink-studying.png') no-repeat center top;
+    padding: 80px 8px 8px 8px;
+}
+#page-body section blockquote p {
+    text-align: center;
+}
+#page-body section .sys_carousel-right blockquote p { 
+    font-weight: bold; 
+    line-height: 1.68rem; 
+    text-align: left;
+}
+#page-body section .sys_carousel-right blockquote p.sys_attr { 
+    font-weight: normal;
+    text-align: left;
+}
+.profile-image, #page-body section .sys_carousel-right img.profile-image, #page-body section .sys_carousel-right .sys_profile-image img {
+    width: 175px; height: auto; display: block; margin: 0 auto 16px auto; padding-top: 20px;
+}
+
+/* carousel styles */
+#page-body section .sys_panel-image-carousel { margin-bottom: 24px; }
+.sys_carousel-caption { position: relative; padding: 8px 0 8px 4px; background-color: #fff; height: 40px; line-height: 1.2em; color: #000; font-size: 1.2em; max-width: 800px; } #page-body section .slick-dots { position: absolute; top: 560px; width: auto !important; right: 0; background: #fff; padding-right: 0; height: 35px; } .slick-dots li button { color: #000; } .slick-dots li.slick-active button::before { opacity: 1; color: #000; } .slick-dots li button::before { opacity: .35; color: #000; } .carousel-control-prev.imageCarousel-prev { z-index: 3; background: url('/_design/img/image-slider-left-30px.gif') no-repeat left 44%; } .imageCarousel-next { background: url('/_design/img/image-slider-right-30px.gif') no-repeat right 44%; } .imageCarousel-prev:focus, .imageCarousel-next:focus { outline: none; background-image: url('/_design/img/image-slider-left-30px-focus.gif'); text-decoration: underline; } .imageCarousel-next:focus { background-image: url('/_design/img/image-slider-right-30px-focus.gif'); } .slick-slide img { display: block; width: 100%; } .slick-dots li button:focus::before { opacity: 0.4; color: #da3949; } .slick-dots li.slick-active button:focus::before, .slick-dots li button:focus { opacity: 1; color: #da3949; }.carousel-control-next.imageCarousel-next { right: 0; } .imageCarousel-prev, .imageCarousel-next { position: absolute; top: 0px;width: 40px; height: 100%; text-align: center;color: #999;text-decoration: none; text-shadow: 0 0 1px #000;font: 28px/30px Arial, sans-serif;text-indent: 100%;white-space: nowrap; overflow: hidden; } #page-body section .sys_carousel-item p { margin-left: 24px; margin-right: 24px; font-size: 1.13rem; line-height: 1.68rem; } .sys_carousel-right { background: #f3f2f1; height: 550px;} 
+
+@media screen and (max-width:980px) {
+#page-body section .sys_carousel-item p { font-size: 1.05rem; }
+.sys_carousel-caption { max-width: none; width: auto; height: auto; } .slick-dots { position: static; margin: auto;} .carousel-control-prev.imageCarousel-prev { background-position: left 36%; } .imageCarousel-next { background-position: right 36%; }
+.sys_carousel-right { height: 700px;} 
+#page-body section .slick-dots { position: static; }
+.sys_carousel-item img.sys_carousel-cover, .sys_carousel-item.sys_carousel-cover img { border-top: 174px solid #111217; border-bottom: 174px solid #0a0a0a; }
+}
+@media screen and (max-width:767px) {
+    .carousel-control-prev.imageCarousel-prev { background-position: left 250px; } .imageCarousel-next { background-position: right 250px; }
+    #page-body section .slick-dots { width: 100% !important; position: static !important; padding-top: 16px; }
+    .sys_carousel-right { height: 580px;} 
+    .sys_carousel-item img.sys_carousel-cover, .sys_carousel-item.sys_carousel-cover img { border-top: none; border-bottom: none; }
+    #page-body section .sys_youtube-replace-msg { height: auto; width: 487px; margin: auto; max-width: 100%;
+}
+}
+@media screen and (max-width:550px) {
+    .sys_carousel-right { height: auto; padding-bottom: 16px; }
+    .carousel-control-prev.imageCarousel-prev { background-position: left 44%; } .imageCarousel-next { background-position: right 44%; }
+}
+/* brighton students carousel styles */
+#page-body section .sys_brighton-students-carousel .sys_carousel-large-text p, #page-body section .sys_brighton-students-carousel .sys_carousel-large-text ul { margin: 24px 24px; font-size: 1.4rem; line-height: 2.3rem; } 
+#page-body section .sys_brighton-students-carousel .sys_profile-image { padding-top: 20px; }
+#page-body section .sys_brighton-students-carousel .sys_profile-image img { padding-top: 0; border-radius: 50%; }
+#page-body section .sys_brighton-students-carousel .sys_carousel-large-text ul { margin-left: 48px; }
+#page-body section .sys_brighton-students-carousel .sys_carousel-large-text li { font-size: 1.4rem; margin-bottom: 12px; line-height: 1.8rem; }

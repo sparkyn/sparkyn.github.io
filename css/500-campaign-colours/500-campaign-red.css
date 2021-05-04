@@ -1,0 +1,18 @@
+/* colour separation */
+h1 span.title-first-line, h1 span.title-first-line-all-yellow, h1 span.title-middle-line, h1 span.title-last-line, .sys_cta-bar-campaign { background-color: #ec0005; }
+#page-body aside.sys_quote blockquote { background-image: url('../../img/icon-quote-black-outline.png'); }
+section h2, section h3, section h4 { color: #000; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li button { background-color: #ec0005; }
+@media screen and (max-width:767px) {
+#page-body .sys_section-content .sys_span6 .sys_tabHeading, #page-body .sys_section-content .sys_span12 .sys_tabHeading, #page-body .sys_section-content .sys_span8 .sys_tabHeading { color: #ec0005; }
+}
+@media screen and (max-width:979px) {
+	header h1 {  background-color: #ec0005; }
+}
+/* campaign-specific colour for mini tabs */
+ul.sys_section-tabs li a { color: #ec0005; }
+ul.sys_section-tabs li.sys_selected, .sys_grey ul.sys_section-tabs li.sys_selected { background-color: #ec0005; }
+.sys_next-tab a, .sys_next-tab a:link, .sys_next-tab a:visited, .sys_next-tab a:hover, .sys_next-tab a:active { background-color: #ec0005; }
+
+/* section-specific colour for page rating form */
+.sys_rating-form, .sys_rating-form-title { background-color: #ec0005; }

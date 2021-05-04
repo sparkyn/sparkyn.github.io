@@ -1,0 +1,371 @@
+#banner-img { height: 224px; }
+#page-heading span { margin-bottom: 34px; margin-left: 12px; height: 40px; }
+@media screen and (max-width:980px) {
+#banner-img { height: 164px; }
+#page-heading span { height: auto; }
+}
+
+/* active breadcrumbs styles */
+#active-breadcrumbs { background-color: #fff;  position: relative; padding-top: 2px; padding-bottom: 2px; height: 32px; border-bottom: 1px solid #99465c; }
+#active-breadcrumbs .sys_content { padding-left: 0px; padding-right: 0px; width: 990px; }
+#active-breadcrumbs ul.sys_topbread { color: #929292; font-family: 'Avenir-Demi', Arial, sans-serif; font-size: 1.05em; list-style-type: none; margin: 0; height: 20px; padding: 0 0 0 0; }
+#active-breadcrumbs ul.sys_topbread li { display: block; float: left; padding-top: 5px; padding-bottom: 9px; height: 18px; background: url('/_design/img/active-breadcrumb-menu-link-bg-trans.png') no-repeat right center #99465c; position: relative; }
+#active-breadcrumbs ul.sys_topbread li.sys_topselected { background: url('/_design/img/active-breadcrumb-menu-link-close-trans.png') no-repeat right center #99465c; }
+#active-breadcrumbs ul.sys_topbread li a { color: #fff; text-decoration: none; display: block; padding-right: 37px; padding-left: 10px; }
+#active-breadcrumbs ul.sys_topbread li.sys_first { padding-left: 3px; }
+#active-breadcrumbs ul.sys_topbread li a:focus { outline: none; text-decoration: underline; }
+
+#active-breadcrumbs ul.sys_topbread li.sys_last { background: url('/_design/img/active-breadcrumb-menu-link-bg-last-trans.png') no-repeat right center #99465c;}
+#active-breadcrumbs ul.sys_topbread li.sys_last.sys_topselected { background: url('/_design/img/active-breadcrumb-menu-link-close-last-trans.png') no-repeat right center #99465c;}
+#active-breadcrumbs ul.sys_topbread li.sys_last a { padding-right: 34px; }
+
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected { color: #333; background: none; padding-left: 10px;  }
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected a { color: #333; border-right: none; }
+
+#active-breadcrumbs ul.sys_subnav { display: none; }
+#active-breadcrumbs .sys_scrollbreadcrumb { max-height: 380px; overflow-y: scroll; }
+
+#active-breadcrumbs ul.sys_subnav { position: absolute; top: 35px; left: 10px; background-color: #e0e0e0; z-index: 8; white-space: nowrap; font-size: 0.9em; padding: 18px;  list-style: none; margin: 0; min-width: 220px; font-family: 'Avenir-Regular', Arial, sans-serif; }
+#header #active-breadcrumbs ul.sys_subnav li { margin-bottom: 4px; padding-left: 0; line-height: 1em; margin-left: 0; background: url('/_design/img/mega-menu-header-bg.png') no-repeat right 7px; float: none; display: list-item; padding-top: 0px; padding-bottom: 1px; font-size: 1em; height: auto; }
+#active-breadcrumbs ul.sys_subnav li a { color: #333; text-decoration: none; display: block; padding: 4px 25px 0 0; }
+.sys_lt-ie8 #header #active-breadcrumbs ul.sys_subnav li {  }
+/*.sys_lt-ie8 #header #active-breadcrumbs ul.sys_subnav li a {margin:-18px 0 0 13px; line-height:20px;}*/
+#header #active-breadcrumbs ul.sys_subnav li.sys_group-header { border-top: 1px solid #5f5f5f; padding-left: 0; margin: 0 0 4px 0; background: url('/_design/img/mega-menu-header-bg.png') no-repeat right 10px; font-family: 'Avenir-Demi', Arial, sans-serif; color: #333; list-style: none; list-style-image: none; line-height: 1.5em; font-size: 1.1em; }
+#header #active-breadcrumbs ul.sys_subnav li.sys_group-header a { color: #333; }
+#header #active-breadcrumbs ul.sys_subnav li.sys_group-header a:hover { text-decoration: underline; }
+
+#header #active-breadcrumbs ul.sys_subnav li.sys_selected { color: #ec3e4f; padding-left: 0; list-style: none; background: url('/_design/img/mega-menu-header-bg.png') no-repeat right 7px; }
+#header #active-breadcrumbs ul.sys_subnav li.sys_selected a { color: #b62f3d; }
+#active-breadcrumbs ul.sys_subnav li a:hover { text-decoration: underline; }
+
+
+
+
+/* new styles
+#active-breadcrumbs .new ul.sys_subnav { position: absolute; top: 35px; left: 10px; background-color: #e0e0e0; z-index: 800; white-space: nowrap; font-size: 0.85em; padding: 18px;  list-style: none; margin: 0; min-width: 220px; font-family: Arial, sans-serif; }
+#header #active-breadcrumbs .new ul.sys_subnav li { margin-bottom: 4px; padding-left: 0; line-height: 1em; margin-left: 0; background: url('/_design/img/mega-menu-header-bg.png') no-repeat right 7px; float: none; display: list-item; padding-top: 0px; padding-bottom: 1px; font-size: 1em; }
+#active-breadcrumbs .new ul.sys_subnav li a { color: #6D6E71; text-decoration: none; display: block; padding-right: 25px; padding-left: 0px; padding-top: 4px; padding-bottom: 0px; }
+#header #active-breadcrumbs .new  ul.sys_subnav li.sys_group-header { border-top: 1px solid #5f5f5f; border-bottom: 0; padding-left: 0; margin: 0 0 12px 0; background:0; background: url('/_design/img/mega-menu-header-bg.png') no-repeat right 10px; font-family: 'latobold', Arial, sans-serif; color: #000; list-style: none; list-style-image: none; line-height: 1.5em; font-size: 1.1em; }
+#header #active-breadcrumbs .new ul.sys_subnav li.sys_group-header a { color: #5f5f5f; }
+#header #active-breadcrumbs .new ul.sys_subnav li.sys_group-header a:hover { text-decoration: underline; }
+#header #active-breadcrumbs .new ul.sys_subnav li.sys_selected { color: #ec3e4f; padding-left: 0px; /*list-style: url('/_design/img/breadcrumb-subnav-sel-img.gif');*-/ list-style: none; }
+#active-breadcrumbs .new ul.sys_subnav li a:hover { text-decoration: underline; } */
+
+
+
+
+@media screen and (max-width:980px) {
+	
+#page-heading span { margin-left: 0; font-size: 1.7em; }
+#page-heading span a { line-height: 1.05em; padding: 10px 22px 12px 10px; }
+	
+section h1 { font-size: 1.7em; line-height: 1.2em; }
+
+#active-breadcrumbs { padding-top: 0; padding-bottom: 10px; }	
+	
+#active-breadcrumbs ul.sys_topbread li { background:none!important; display: inline; float: none; }
+#active-breadcrumbs ul.sys_topbread li a { color:#444; padding-left: 0; display: inline-block; }
+#active-breadcrumbs ul.sys_topbread li.sys_first { padding-left: 0; }
+#active-breadcrumbs, #active-breadcrumbs ul.sys_topbread { height: auto; }
+#active-breadcrumbs ul.sys_topbread li { background: url('/_design/img/section-li-img.gif') no-repeat left center;}
+#active-breadcrumbs ul.sys_subnav { display: none !important; }
+#header #active-breadcrumbs ul { padding: 10px 8px 4px 4px; clear: both; background: #f1f1f1; }
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected { padding-left: 8px; display: inline-block !important; color:#444; padding-top: 0; }
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected a { padding-left: 0; }
+
+#active-breadcrumbs ul.sys_topbread li.sys_toplink { display: inline; padding-right: 4px; background: url('/_design/img/icon-arrow-10px-lighter.png') no-repeat right 10px !important; }
+#active-breadcrumbs ul.sys_topbread li.sys_toplink a { padding: 0 12px 4px 8px; text-decoration: underline; }
+
+}
+
+@media screen and (max-width:640px) {
+	#header #active-breadcrumbs ul.sys_subnav li {clear: both; padding:6px 0;}
+}
+
+/* styles for when each top element is docked  */
+
+body.sys_top-nav-fixed #top-nav { background-color: #fff; border-bottom: 1px solid #c33140; height: 45px; padding-top: 5px; } 
+body.sys_top-nav-fixed #page-heading { padding-top: 242px; }
+body.sys_top-nav-fixed #top-nav ul#top-nav-menu .sys_mega-menu { top: 45px; }
+
+/* end of docked styles */
+
+
+@media screen and (max-width:980px) {
+	.sys_top-header-fixed #active-breadcrumbs {display:none!important;}
+}
+
+@media screen and (max-width:640px) {	
+	.sys_section-nav-fixed #section-nav {top:71px!important;}
+}
+
+@media screen and (max-width:980px) {
+	.sys_section-nav-fixed #section-nav .sys_container {padding: 0px 20px 15px; margin-bottom: 10px;} 
+	.sys_top-header-fixed #section-nav {display:none!important;} 
+}
+
+/* special width adjustments to try to bring the header and footer into Bootstrap but with their own widths */
+#section-nav .sys_container, #section-nav  .sys_span12 { width: 990px; max-width: 100%; }
+
+#section-nav .sys_container { height: 34px; background-color: #fff;  position: relative; padding-left: 0; }
+#active-breadcrumbs .sys_container, #active-breadcrumbs .sys_span12 { width: 990px; max-width: 100%; }
+.sys_lt-ie9 #section-nav .sys_container, .sys_lt-ie9 #section-nav  .sys_span12 { width: 990px; max-width: 990px; }
+.sys_lt-ie9 #active-breadcrumbs .sys_container, .sys_lt-ie9 #active-breadcrumbs .sys_span12 { width: 990px; max-width: 990px; }
+
+@media screen and (max-width:980px) {
+	#section-nav .sys_container {background-color:transparent;}
+}
+
+@media screen and (max-width:980px) {
+	#section-nav .sys_container {border-bottom:0!important;}
+}
+
+/* ie7 style fixes */
+/* had to turn off background image altogether - link won't take full width in IE */
+.sys_lt-ie8 #active-breadcrumbs ul.sys_subnav li a, .sys_lt-ie8 #active-breadcrumbs ul.sys_subnav li.sys_selected a { background: none; }
+
+
+@media screen and (max-width:980px) {
+	#section-nav .sys_container { border: 0; }
+	#section-nav { display: none;}
+}
+
+/* large quote stripe across page with quote marks image */
+#page-body aside.sys_quote { background-color: #af7181; padding-top: 0; }
+#page-body aside.sys_quote blockquote { background: url('/_design/img/icon-quote-white-outline.png') no-repeat left 24px; padding: 102px 0 32px 0; color: #fff; font-size: 1.5em; line-height: 1.1em; border: none; margin: 0; }
+#page-body aside.sys_quote p { margin-bottom: 0; font-size: 1em; line-height: 1.1em; }
+/* large quote stripe across page, same as above, but with quote attribution */
+#page-body aside.sys_with-attr blockquote { padding-bottom: 16px; }
+#page-body aside p.sys_pullquote-attr { color: #333; font-size: 1.05em; padding-bottom: 32px; }
+/* pull stat for non-course pages */
+#page-body aside.sys_pullstat { padding: 32px 0 32px 0; border: none; margin: 0; }
+#page-body aside.sys_pullstat p { color: #c92ead; font-size: 1.55em; line-height: 1.1em; }
+#page-body aside p.sys_pullstat-attr { font-size: 1.1em; padding-top: 16px; }
+/* to mimic key facts box from course page */
+.sys_highlight-box { background-color: #fff; color: #000; padding: 0 0 12px 0; margin-bottom: 16px; margin-top: 32px; border-top: 10px solid #fae927; border-bottom: 4px solid #fae927; }
+.sys_span6 .sys_highlight-box:first-child, .sys_span4 .sys_highlight-box:first-child { margin-top: 0; }
+.sys_highlight-box a {  }
+#page-body .sys_section-content .sys_highlight-box { padding: 12px; border-right: 2px solid #fae927; border-left: 2px solid #fae927; }
+#page-body .sys_section-content .sys_highlight-box  p, .sys_section-content .sys_highlight-box li { color: #000; }
+#page-body section .sys_highlight-box h2, #page-body section .sys_highlight-box h3, #page-body section .sys_highlight-box h4 { color:#000; font-size: 1.4em; border-bottom: none; border-top: none; font-family: 'brandon', Arial, sans-serif; text-transform: uppercase; display: table; background: #fff; padding-right: 8px; margin-top: -23px; }  
+#page-body section .sys_highlight-box li { list-style-image: url('/_design/img/icon-arrow-10px.png'); }
+
+@media screen and (max-width:767px) {
+	#page-body aside.sys_quote blockquote { background: url('/_design/img/icon-quote-white-outline-small.png') no-repeat left 36px; padding: 106px 0 40px 0; }
+	.sys_span6 .sys_highlight-box:first-child, .sys_span4 .sys_highlight-box:first-child { margin-top: 32px; }
+}
+
+#page-body section .sys_clearing-highlight-box h2, #page-body section .sys_clearing-highlight-box h3 { font-size: 1.6em; line-height: 1.4em; border-bottom: 1px solid #fff; font-family: 'brandon', Arial, sans-serif; text-transform: uppercase; }
+
+
+/* system-generated events listings (and some news styles) */
+#page-body .sys_theme-simple .sys_tools-control { border-bottom: 0 none; border-top: 0 none; }
+#page-body .sys_theme-simple .sys_tools-control div a { color: #6D6E71; }
+#page-body .sys_theme-simple .sys_tabsfilter-control { border-bottom: none; }
+#page-body .sys_theme-simple .sys_tabsfilter-control ul { font-family: 'Avenir-Demi', Arial, sans-serif; font-size: 0.9em; }
+#page-body .sys_theme-simple .sys_tabsfilter-control ul li { background-color: #717171; border: none; margin-right: 10px; margin-bottom: 0; }
+#page-body .sys_theme-simple .sys_tabsfilter-control ul li a { background: none; padding: 2px 8px; color: #fff; border-bottom: none; }
+#page-body .sys_theme-simple .sys_tabsfilter-control li a:hover, #page-body .sys_theme-simple .sys_tabsfilter-control li a:focus, #page-body .sys_theme-simple .sys_tabsfilter-control li a:active { border: none; margin: 0; }
+#page-body .sys_theme-simple .sys_tabsfilter-control ul li.sys_selected { background-color: #F6F5F5; }
+#page-body .sys_grey .sys_theme-simple .sys_tabsfilter-control ul li.sys_selected { background-color: #fff; }
+#page-body .sys_theme-simple .sys_tabsfilter-control ul li.sys_selected a { border: none; margin: 0; color: #c03240; }
+#page-body .sys_theme-simple .sys_events-control { background-color: #F6F5F5; }
+#page-body .sys_grey .sys_theme-simple .sys_events-control { background-color: #fff; }
+#page-body .sys_theme-simple .sys_datarepeatercontrol { padding-left: 16px; padding-right: 16px; width: auto; }
+#page-body .sys_theme-simple .sys_datarepeatercontrol .sys_subitem { background-color: #F6F5F5; margin-top: 8px; }
+#page-body .sys_grey .sys_theme-simple .sys_datarepeatercontrol .sys_subitem { background-color: #fff; margin-top: 8px; }
+#page-body .sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading { background: none; margin: 0 14px 10px 14px; font-size: 1.1em; border-bottom: 1px solid #CCCCCC; }
+#page-body .sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading a { top: 0; padding: 16px 0 4px; font-weight: normal; color: #0071A9; }
+#page-body .sys_theme-simple .sys_events-control .sys_subitem .sys_events-summary { top: 0; padding-right: 14px; }
+#page-body .sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl { margin-bottom: 16px; }
+#page-body .sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl dt { color: #6D6E71; }
+#page-body .sys_theme-simple .sys_events-control .sys_search-term-text { padding: 16px 16px 0; }
+#page-body .sys_theme-simple .sys_events-control .sys_flickrpager .sys_navigation span.sys_navigationnext a, #page-body .sys_theme-simple .sys_events-control .sys_flickrpager .sys_navigation span.sys_navigationprevious a { color: #6D6E71; }
+#page-body .sys_theme-simple .sys_search-options .sys_checkbox label { font-weight: normal; }
+#page-body .sys_theme-simple .sys_search-options input.sys_button { background-image: none; color: #6D6E71; padding-left: 12px; }
+#page-body .sys_theme-simple div.sys_noresults, #page-body .sys_grey .sys_theme-simple div.sys_noresults { border: none; font-size: 1em; padding-bottom: 4px; padding-left: 0; background-color: transparent; }
+#page-body .sys_theme-simple .sys_standard-list .sys_itemslist { padding: 16px 0px 0px; }
+/* fix for layout change in 8.2 */
+.sys_eventssearchcontrol { width: 27%; float: right; }
+@media screen and (max-width:990px) {
+	.sys_eventssearchcontrol { display: none; }
+}
+
+@media screen and (max-width:480px) {
+#page-body .sys_events-search-control, #page-body .sys_events-tabs-control { display: none; }
+#page-body .sys_events-control { width: 100%; max-width: 100%; }
+#page-body .sys_flickrpager { text-align: left; }
+#page-body .sys_theme-simple .sys_flickrpager .sys_paginginfo { float: none; padding-bottom: 8px; }
+#page-body .sys_theme-simple .sys_flickrpager .sys_navigationprevious { padding: 2px 7px 2px 0; }
+}
+
+
+/* system-generated news listings */
+#page-body .sys_theme-simple .sys_news-control .sys_datarepeatercontrol { padding-left: 0; padding-right: 0; width: auto; }
+#page-body .sys_theme-simple .sys_news-control .sys_itemslist div.sys_thumbnail { float: left; margin: 0 8px 0 14px; }
+#page-body .sys_theme-simple .sys_news-control .sys_itemslist div.sys_thumbnail a:hover { border: none; margin: 0; }
+#page-body .sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem .sys_news-summary { top: -2px; padding-right: 10px; }
+
+#page-body .sys_theme-simple .sys_events-control .sys_itemslist div.sys_thumbnail { margin: 2px 14px 8px 8px; }
+#page-body .sys_theme-simple .sys_events-control .sys_itemslist div.sys_thumbnail a:hover { border: none; margin: 0; }
+#page-body .sys_theme-simple .sys_flickrpager .sys_navigation .sys_disabled, .sys_theme-simple .sys_flickrpager .sys_navigation .sys_ellipsis { color: #6E6E6E; }
+#page-body .sys_theme-simple .sys_flickrpager .sys_navigation a { text-decoration: underline; }
+
+/* system-generated generic page listings - add for full course list page */
+.sys_theme-simple.sys_genericlist-themed .sys_datarepeatercontrol li.sys_subitem a { background: none; padding: 0; }
+.sys_theme-simple.sys_genericlist-themed .sys_datarepeatercontrol li.sys_subitem { padding: 0.5em 10px 0.5em 0; } 
+#page-body .sys_theme-simple.sys_genericlist-themed .sys_datarepeatercontrol { padding-left: 0; padding-right: 0; }
+
+/* system-generated faq listing does not have sufficient contrast */
+#page-body .sys_theme-simple .sys_atoz-control ul li.sys_noresults span { color: #6c6c6c; }
+
+/* smaller text date style for news updates */
+.date-text, #page-body section .date-text { font-size: 0.95em; color: #767676; }
+
+/* back to top links for pages with anchor links */
+.sys_grey + .sys_back-anchor-div { background: #f6f5f5; }
+.sys_back-anchor-div { margin-top: -15px; }
+.sys_back-anchor { display: block; height: 29px; width: 29px; position: relative; left: 49%; background: url('/_design/img/prev-heading-grey-on-grey.png') no-repeat left top; }
+.sys_grey + .sys_back-anchor-div .sys_back-anchor { background: url('/_design/img/prev-heading-grey-on-white.png') no-repeat left top; }
+a.sys_back-anchor { text-decoration: none; }
+
+/* opendays keyword search */
+.sys_odays-keyword-search { background: #767676; color: #fff; padding: 8px 16px 16px; margin-bottom: 16px; }
+.sys_odays-keyword-search label { display: block; font-family: "brandon", Arial, sans-serif; font-size: 1.7em; font-weight: normal; line-height: 1.4em; color: #fff; border-bottom: 1px solid #fff; border-top: medium none; margin-bottom: 16px; margin-top: 0px; text-transform: uppercase; } 
+.sys_odays-keyword-search input[type="text"] { width: 446px; margin-bottom: 0; line-height: 22px; height: 22px; }
+.sys_odays-keyword-search input[type="image"] { float: right; }
+@media screen and (max-width:980px) {
+	.sys_odays-keyword-search input[type="text"] { max-width: 80%; }
+}
+	
+			 
+/* add course search results styles for integration of course search into main search page */
+h2.sys_search-title { display: none; }
+section .sys_courseresults .sys_tabHeading { display: none; }
+section .sys_row.sys_courseresults .sys_tabHeading { display: block; }
+section .sys_courseresults ul { padding-left: 0; list-style-type: none; list-style-image: none; }
+section .sys_courseresults article { overflow: auto; padding-bottom: 16px; padding-right: 20px; margin-bottom: 0; }
+section .sys_courseresults h3, section .sys_courseresults h2 { font-size: 1.5em; color: #000; border-top: none; border-bottom: none; padding-top: 16px; margin-bottom: 8px; clear: both; }
+section .sys_courseresults li:first-child h3, section .sys_courseresults li:first-child h2 { padding-top: 0; }
+section .sys_courseresults li a { background: url("/_design/img/go-header-link-bg-18px.gif") no-repeat right center; display: block; border-bottom: 1px solid #000; }
+section .sys_courseresults li a:hover { text-decoration: none; }
+section .sys_courseresults h3 a, section .sys_courseresults h2 a { display: block; color: #000; text-decoration: none; background: url("/_design/img/go-header-link-bg.gif") no-repeat right 2px; padding-right: 20px; }
+section .sys_coursedefs { float: left; margin-right: 3%; width: 32%; }
+section .sys_resultduration { width: 30%; }  
+section .sys_resultucas { width: 20%; margin-right: 0; }
+section .sys_resultclearing { width: 22%; margin-right: 0; float: right; }
+section .sys_resultclearing h4, section .sys_resultclearing h3 { color: #000; }
+#page-body section .sys_courseresults h4, #page-body section .sys_courseresults h3 { display: inline; float: none; margin-right: 8px; font-size: 0.95em; }
+section .sys_courseresults ul.sys_definitions { float: none; width: 100%; margin-right: 3%; }
+section .sys_courseresults ul.sys_definitions li { font-size: 0.95em; line-height: 20px; }
+section .sys_courseresults ul.sys_definitions li.sys_locbrighton { padding-left: 24px; background: url("/_design/img/location-brighton.png") no-repeat left 3px; min-height: 21px; }
+section .sys_courseresults ul.sys_definitions li.sys_loceastbourne { padding-left: 24px; background: url("/_design/img/location-eastbourne.png") no-repeat left 3px; min-height: 21px; }
+section .sys_courseresults ul.sys_definitions li.sys_lochastings { padding-left: 24px; background: url("/_design/img/location-hastings.png") no-repeat left 3px; min-height: 21px; }
+section .sys_courseresults ul.sys_definitions li.sys_locpartner { padding-left: 24px; background: url("/_design/img/location-partner.png") no-repeat left 3px; min-height: 21px; }
+section .sys_courseresults ul.sys_resultucas { width: 100%; }
+section .sys_courseresults ul.sys_resultduration { width: 100%; margin-right: 10%; }
+section .sys_courseresults dt { float: left; margin-bottom: 40px; padding-right: 8px; }
+section .sys_courseresults dd { }
+#page-body .sys_courseresults h2, #page-body .sys_courseresults h3, #page-body .sys_courseresults h4, #page-body .sys_courseresults h5 { margin-top: 0; }
+#page-body section .sys_courseresults p.sys_course-strapline { font-size: 0.95em; margin: -2px 0 8px 0; }
+
+@media screen and (max-width:980px) {
+section .sys_courseresults .sys_span12:first-child { width: 708px; padding-right: 16px; }
+}
+
+@media screen and (max-width:767px) {
+section .sys_courseresults .sys_section-tabs { display: block; }
+#page-body section .sys_courseresults .sys_tabHeading { display: block; color: #000; font-size: 1.5em; margin-bottom: 20px; }
+section .sys_courseresults .sys_span12 { padding-top: 24px; }
+section .sys_courseresults .sys_span12:first-child { width: auto; }
+section .sys_courseresults .sys_section-content-tab:first-child .sys_span12 { padding-top: 0; }
+#page-body section .sys_courseresults .sys_span12 .sys_tabHeading { font-size: 1.4em; }
+}
+
+@media screen and (max-width:640px) {
+section .sys_courseresults ul.sys_definitions {  }
+}
+
+@media screen and (max-width:490px) {
+section .sys_courseresults h3 { font-size: 1.3em; }
+section .sys_courseresults .sys_resultduration, #page-body section .sys_courseresults .sys_durationhead { display: none; }
+section .sys_courseresults h4 { float: none; clear: left; }
+section .sys_courseresults ul.sys_definitions { margin-bottom: 8px; width: 60%; }
+section .sys_coursedefs { width: 42%; margin-right: 5%; }
+section .sys_resultclearing { float: none; width: auto !important; clear: both; }
+}
+
+@media screen and (max-width:380px) {
+section .sys_courseresults ul.sys_definitions { width: 70%; }
+}
+
+/* end of styles for search results page */
+
+/* scroll down arrow*/
+#scroll-down { position: fixed; bottom: 0; width: 100%; z-index: 30; }
+#scroll-down a { display: block; margin: auto; width: 29px; height: 29px; }
+#scroll-down a:focus { outline: 2px dashed #000; }
+footer, .sys_back-to-top { position: relative; z-index: 40; }
+@media screen and (max-width:980px) {
+		#scroll-down { display: none; }
+}
+
+/* styles for alphabetical course list page */ 
+.sys_alpha-course-list h2 { padding-top: 16px; }
+#page-body .sys_alpha-course-list li { margin-bottom: 6px; }
+.sys_alpha-course-quicks a { font-size: 1.2em; padding: 2px; border-bottom: 1px dashed #da3949; margin-right: 6px; }
+
+
+/* uob styles for FAQ module */
+#page-body section .sys_faqs-control .sys_datarepeatercontrol { padding-left: 0; padding-right: 0; }
+#page-body section .sys_faqs-control .sys_itemslist .sys_subitem .sys_subitem-heading a { padding-left: 28px; background-position: 5px 17px; }
+#page-body section .sys_intro-para .sys_faqs-control p:first-child { font-family: Arial, sans-serif; font-size: 1.05em !important; }
+
+/* clear button for open day listing search  */
+.sys_clear-search { background: #919191; color: #fff; display: inline-block; margin-bottom: 16px; }
+.sys_clear-search a { color: #fff; display: block;  padding: 12px; text-transform: uppercase; font-family: 'brandon', Arial, sans-serif; }
+.sys_clear-search a:hover { text-decoration: none; }
+
+/* subject areas landing page */
+section .sys_subjectslist { padding-bottom: 30px; }
+section .sys_subjectslist h2 { font-family: 'Avenir-Demi', Arial, sans-serif; color: #000; }
+section .sys_subjectslist a, section .sys_subjectslist a:visited{ color: #333; font-weight: normal; display: block; background: url('/_design/img/go-header-link-bg-14px.gif') no-repeat right 6px; padding: 4px 16px 4px 0; border-bottom: 1px solid #c6c6c7; }
+section .sys_subjectslist ul { list-style-type: none; list-style-image: none; margin-left: 0; margin-bottom: 32px; padding-right: 24px; }
+section .sys_subjectslist h2 a { background: none; border: none; padding: 0; }
+
+#page-body section .sys_span4 .related-links-header, .related-links-header { font-family: 'brandon', Arial, sans-serif; text-transform: uppercase; color: #000; font-size: 1.3em; }
+ul.related-links-list, .related-links-list { list-style-type: none; list-style-image: none; margin-left: 0; margin-top: 8px; }
+.related-links-list a, .related-links-list a:visited { color: #333; font-weight: normal; display: block; background: url('/_design/img/go-header-link-bg-14px.gif') no-repeat right 6px; padding: 4px 16px 4px 0; border-bottom: 1px solid #c6c6c7; }
+
+/* profiles listing web control */
+.sys_profile-listing { display: table; }
+.sys_profile-listing > div { display: table-row; }
+.sys_profile-listing-img { display: table-cell; }
+.sys_profile-listing-img a { display: block; margin-bottom: 8px; width: 100px; height: 100px; }
+.sys_profile-listing-text { display: table-cell; vertical-align: top; padding: 0 8px 8px 8px; }
+
+/* new class for removing borders from tables */
+.table-noborders, table.table-noborders, table.table-noborders tr, table.table-noborders th, table.table-noborders td { border: none; }
+
+/* bullet point text size */
+#page-body section li { font-size: 1.05em; }
+#page-body section .sys_section-content li { font-size: 1em; }
+
+/* blog feature boxes on non-course pages */
+.sys_blog-feature-wrapper { padding-bottom: 30px; }
+.sys_blog-feature img { width: 100%; height: auto; }
+#page-body section .sys_blog-feature h3 { color: #000; margin: 10px 0 0 0; font-size: 1.15em; padding: 14px 0 0 0; border-bottom: none; border-top: 7px solid #fae927; line-height: 1.2em; position: relative; }
+#page-body section .sys_blog-feature h3::before { content: 'Blog'; text-transform: uppercase; position: absolute; top: -13px; background-color: #fff; padding-right: 6px; font-family: 'brandon', Arial, sans-serif; }
+#page-body section .sys_blog-feature p { color: #000; font-size: 1em; padding: 4px 0 12px 0; border-bottom: 4px solid #fae927; }
+.sys_blog-feature a:hover, .sys_blog-feature a:active { text-decoration: none; }
+#page-body section a.sys_blog-feature-link:focus { text-decoration: none; outline: 1px dashed #000; outline-offset: 2px; }
+section .sys_blog-feature a.sys_blog-feature-link { display: block; border-bottom: none; }
+@media screen and (max-width:980px) { 
+	.sys_blog-feature { margin-left: 10px; } 
+}
+@media screen and (max-width:767px) { 
+	.sys_blog-feature-3, .sys_blog-feature-4, .sys_blog-feature-5, .sys_blog-feature-6, .sys_blog-feature-7, .sys_blog-feature-8 { display: none; } 
+	.sys_blog-feature { margin-left: 0; } 
+}
+
+#page-body section ul li { margin-bottom: 3px; font-size: 1.05em; }

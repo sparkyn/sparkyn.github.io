@@ -1,0 +1,137 @@
+/*== from Common stylesheet ==*/
+.sys_news-control div, .sys_events-control div { background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 0px; border: 0px none; line-height: 1.5em; }
+.sys_news-control .sys_datarepeatercontrol, .sys_datarepeatercontrol { margin: 0px; padding: 0px; width: 100%; min-height: 1px; }
+.sys_news-control .sys_datarepeatercontrol .sys_itemslist, .sys_datarepeatercontrol .sys_itemslist { clear: both; margin: 0px; padding: 16px 0px 0px; }
+.sys_news-control .sys_datarepeatercontrol .sys_subitem, .sys_datarepeatercontrol .sys_subitem { border: 1px solid #CCC; background: #F7F7F7 none repeat scroll 0% 0%; margin: 1.8em 0px 10px; padding: 0px; position: relative; z-index: 1; min-height: 1em; clear: both; }
+.sys_news-control .sys_datarepeatercontrol .sys_subitem *, .sys_datarepeatercontrol .sys_subitem * { position: relative; }
+.sys_news-control .sys_itemslist div.sys_thumbnail, .sys_itemslist div.sys_thumbnail { float: right; margin: -15px 6px 8px 8px; padding: 0px; position: relative; z-index: 999; border: 1px solid #CCC; background: #FFF none no-repeat scroll 0% 0%; }
+.sys_news-control .sys_itemslist div.sys_thumbnail a, .sys_itemslist div.sys_thumbnail a { float: left;display: block; margin: 0px; padding: 0px; }
+.sys_news-control .sys_itemslist div.sys_thumbnail img, .sys_itemslist div.sys_thumbnail img { display: block; margin: 0px; padding: 0px; }
+.sys_news-control .sys_datarepeatercontrol .sys_subitem dl, .sys_datarepeatercontrol .sys_subitem dl { margin: 0px 0px -10px; padding: 0px 5px; }
+.sys_news-control .sys_datarepeatercontrol .sys_subitem dl dd, .sys_datarepeatercontrol .sys_subitem dl dd { margin: 0px 0px 0.25em; padding: 0px; position: relative; min-height: 1.2em; }
+.sys_news-control .sys_datarepeatercontrol .sys_subitem dl dt, .sys_datarepeatercontrol .sys_subitem dl dt { float: left; margin: 0px; padding: 0px; position: relative; width: 80px; min-height: 1.2em; color: #333; }
+.sys_news-control .sys_clear, .sys_clear { clear: both; height: 0px; line-height: 0; overflow: hidden; width: 100%; }
+.sys_tools-control { margin: 0px 0px 10px; padding: 0.6em 0px; text-align: right; width: 100%; font-weight: 700; }
+.sys_tools-control div { float: right; min-height: 16px; text-align: left; padding-right: 18px; background-repeat: no-repeat; background-position: 0px 50%; }
+.sys_rss-link, .sys_button-subscribe-rss { display: block; overflow: hidden; white-space: nowrap; font-size: 11px; }
+.sys_tools-control div a { display: block; text-decoration: none; padding: 2px 0px 2px 22px; background-repeat: no-repeat; background-position: 0px 50%; }
+.sys_rss-link a, .sys_button-subscribe-rss a { overflow: hidden; font-weight: 700; background: transparent url("/aspnet_client/ContensisThemes/simple/Common/Imgs/Rss-Feed-Icon.gif") no-repeat scroll 0px 50%; }
+.sys_news-control .sys_flickrpager, .sys_events-control .sys_flickrpager { margin: 10px 0px; padding: 10px 0px; min-height: 1.5em; text-align: right; clear: both; width: auto; background: transparent none repeat scroll 0% 0%; float: none; border: 0px none; }
+.sys_news-control .sys_flickrpager .sys_paginginfo, .sys_events-control .sys_flickrpager .sys_paginginfo, .sys_flickrpager .sys_paginginfo { float: left; font-weight: 400; font-size: 12px; width: auto; background: transparent none repeat scroll 0% 0%; border: 0px none; margin: 0px; padding: 0px; }
+
+/*== from news stylesheet ==*/
+.sys_news-control .sys_subitem .sys_news-subheading, .sys_subitem .sys_news-subheading, .sys_itemslist .sys_subitem .sys_subitem-heading { display: block; font-size: 1em; margin: -2px 0px 10px 12px; padding: 0px; position: relative; z-index: 99; background: #F7F7F7 none repeat scroll 0% 0%; }
+.sys_news-control .sys_subitem .sys_news-subheading a, .sys_subitem .sys_news-subheading a, .sys_itemslist .sys_subitem .sys_subitem-heading a { margin: 0px; padding: 5px 0px 0px 4px; display: inline-block; font-weight: bold; text-decoration: none; position: relative; z-index: 100; top: -1em; }
+.sys_news-control .sys_itemslist .sys_subitem .sys_news-summary, .sys_itemslist .sys_subitem .sys_news-summary { position: relative; z-index: 300; top: -15px; margin: 0px; padding: 0px 0px 0px 9px; min-height: 1em; }
+.sys_news-control .sys_itemslist .sys_subitem dl dt.sys_news-description, .sys_itemslist .sys_subitem dl dt.sys_news-description { display: none; }
+.sys_news-control .sys_itemslist .sys_subitem dl dd.sys_news-description, .sys_itemslist .sys_subitem dl dd.sys_news-description { display: block; color: #484848; }
+.sys_news-control .sys_itemslist .sys_subitem dl dt.sys_news-datepublished, .sys_itemslist .sys_subitem dl dt.sys_news-datepublished { display: none; }
+
+/*== from events stylesheet ==*/
+.sys_events-control .sys_subitem .sys_events-summary dl dt.sys_events-description {  display: none; }
+.sys_events-control .sys_subitem .sys_events-summary { position: relative; z-index: 300; top: -15px; margin: 0px; padding: 0px 0px 0px 9px; min-height: 1em; }
+.sys_events-control .sys_subitem .sys_events-summary dl dd.sys_events-location { font-weight: 700; }
+
+
+/* from non-coursepage.css */
+/* system-generated events listings (and some news styles) */
+#page-body .sys_news-control .sys_tools-control, #page-body .sys_tools-control { border-bottom: 0 none; border-top: 0 none; }
+#page-body .sys_news-control .sys_tools-control div a, #page-body .sys_tools-control div a { color: #6D6E71; }
+#page-body .sys_news-control .sys_tabsfilter-control, #page-body .sys_tabsfilter-control { border-bottom: none; }
+#page-body .sys_news-control .sys_tabsfilter-control ul, #page-body .sys_tabsfilter-control ul { font-family: 'Avenir-Demi', Arial, sans-serif; font-size: 0.9em; }
+#page-body .sys_news-control .sys_tabsfilter-control ul li, #page-body .sys_tabsfilter-control ul li { background-color: #B3B3B3; border: none; margin-right: 10px; margin-bottom: 0; }
+#page-body .sys_news-control .sys_tabsfilter-control ul li a, #page-body .sys_tabsfilter-control ul li a { background: none; padding: 2px 8px; color: #fff; }
+#page-body .sys_news-control .sys_tabsfilter-control li a:hover, #page-body .sys_news-control .sys_tabsfilter-control li a:focus, #page-body .sys_news-control .sys_tabsfilter-control li a:active, #page-body .sys_tabsfilter-control li a:hover, #page-body .sys_tabsfilter-control li a:focus, #page-body .sys_tabsfilter-control li a:active { border: none; margin: 0; }
+#page-body .sys_news-control .sys_tabsfilter-control ul li.sys_selected, #page-body .sys_tabsfilter-control ul li.sys_selected { background-color: #F6F5F5; }
+#page-body .sys_grey .sys_news-control .sys_tabsfilter-control ul li.sys_selected, #page-body .sys_grey .sys_tabsfilter-control ul li.sys_selected { background-color: #fff; }
+#page-body .sys_news-control .sys_tabsfilter-control ul li.sys_selected a, #page-body .sys_tabsfilter-control ul li.sys_selected a { border: none; margin: 0; color: #ec3e4f; }
+#page-body .sys_events-control { background-color: #F6F5F5; }
+#page-body .sys_grey .sys_events-control { background-color: #fff; }
+#page-body .sys_datarepeatercontrol { padding-left: 16px; padding-right: 16px; width: auto; }
+#page-body .sys_news-control .sys_datarepeatercontrol { padding-left: 0; padding-right: 0; }
+#page-body .sys_news-control .sys_datarepeatercontrol .sys_subitem, #page-body .sys_datarepeatercontrol .sys_subitem { background-color: #F6F5F5; margin-top: 8px; }
+#page-body .sys_grey .sys_news-control .sys_datarepeatercontrol .sys_subitem, #page-body .sys_grey .sys_datarepeatercontrol .sys_subitem { background-color: #fff; margin-top: 8px; }
+#page-body .sys_news-control .sys_itemslist .sys_subitem .sys_subitem-heading, #page-body .sys_itemslist .sys_subitem .sys_subitem-heading { background: none; margin: 0 14px 10px 14px; font-size: 1.1em; border-bottom: 1px solid #CCCCCC; }
+#page-body .sys_news-control .sys_itemslist .sys_subitem .sys_subitem-heading a, #page-body .sys_itemslist .sys_subitem .sys_subitem-heading a { top: 0; padding: 16px 0 4px; font-weight: normal; }
+#page-body .sys_events-control .sys_subitem .sys_events-summary { top: 0; padding-right: 14px; }
+#page-body .sys_news-control .sys_datarepeatercontrol .sys_subitem dl, #page-body .sys_datarepeatercontrol .sys_subitem dl { margin-bottom: 16px; }
+#page-body .sys_news-control .sys_datarepeatercontrol .sys_subitem dl dt, #page-body .sys_datarepeatercontrol .sys_subitem dl dt { color: #6D6E71; }
+#page-body .sys_events-control .sys_search-term-text { padding: 16px 16px 0; }
+#page-body .sys_events-control .sys_flickrpager .sys_navigation span.sys_navigationnext a, #page-body.sys_events-control .sys_flickrpager .sys_navigation span.sys_navigationprevious a { color: #6D6E71; }
+#page-body .sys_news-control .sys_search-options .sys_checkbox label, #page-body .sys_search-options .sys_checkbox label { font-weight: normal; }
+#page-body .sys_news-control .sys_search-options input.sys_button, #page-body .sys_search-options input.sys_button { background-image: none; color: #6D6E71; padding-left: 12px; }
+#page-body .sys_news-control div.sys_noresults, #page-body .sys_grey .sys_news-control div.sys_noresults, #page-body div.sys_noresults, #page-body .sys_grey div.sys_noresults { border: none; font-size: 1em; padding-bottom: 4px; padding-left: 0; background-color: transparent; }
+#page-body .sys_news-control .sys_standard-list .sys_itemslist, #page-body .sys_standard-list .sys_itemslist { padding: 16px 0px 0px; }
+/* fix for layout change in 8.2 */
+.sys_eventssearchcontrol { width: 27%; float: right; }
+@media screen and (max-width:990px) {
+	.sys_eventssearchcontrol { display: none; }
+}
+
+@media screen and (max-width:480px) {
+#page-body .sys_events-search-control, #page-body .sys_events-tabs-control { display: none; }
+#page-body .sys_events-control { width: 100%; max-width: 100%; }
+#page-body .sys_flickrpager { text-align: left; }
+#page-body .sys_news-control .sys_flickrpager .sys_paginginfo, #page-body .sys_flickrpager .sys_paginginfo { float: none; padding-bottom: 8px; }
+#page-body .sys_news-control .sys_flickrpager .sys_navigationprevious, #page-body .sys_flickrpager .sys_navigationprevious { padding: 2px 7px 2px 0; }
+}
+
+
+/* system-generated news listings */
+/*#page-body .sys_news-control .sys_datarepeatercontrol, #page-body .sys_datarepeatercontrol { padding-left: 0; padding-right: 0; width: auto; }*/
+#page-body .sys_news-control .sys_itemslist div.sys_thumbnail, #page-body .sys_itemslist div.sys_thumbnail { float: left; margin: 0 8px 0 14px; }
+#page-body .sys_news-control .sys_itemslist div.sys_thumbnail a:hover, #page-body .sys_itemslist div.sys_thumbnail a:hover { border: none; margin: 0; }
+#page-body .sys_news-control .sys_itemslist .sys_subitem .sys_news-summary, #page-body .sys_itemslist .sys_subitem .sys_news-summary { top: -2px; padding-right: 10px; }
+
+#page-body .sys_events-control .sys_itemslist div.sys_thumbnail { margin: 2px 14px 8px 8px; }
+#page-body .sys_events-control .sys_itemslist div.sys_thumbnail a:hover { border: none; margin: 0; }
+
+/* system-generated generic page listings - add for full course list page */
+.sys_genericlist-themed .sys_datarepeatercontrol li.sys_subitem a { background: none; padding: 0; }
+.sys_genericlist-themed .sys_datarepeatercontrol li.sys_subitem { padding: 0.5em 10px 0.5em 0; } 
+#page-body .sys_genericlist-themed .sys_datarepeatercontrol { padding-left: 0; padding-right: 0; }
+
+/*== from faqs stylesheet ==*/
+/* FAQs CSS Document */
+	
+/* Optional FAQs Search */
+.sys_faqs-search-control { background:#f7f7f7; height:1.8em; margin:0 0 15px; padding:.8em 10px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+.sys_faqs-search-control div.sys_search-row { float:left; clear:none; width:75%; } 
+.sys_faqs-search-control div.sys_keywords-row label { float:left; margin: 0 3% 0 0; width:20%; }
+.sys_faqs-search-control div.sys_keywords-row input { float:left; width:70%; margin:0 5px 0 0; }
+.sys_faqs-search-control div.sys_button-row { float:right; width:25%; }
+.sys_faqs-search-control div.sys_button-row input { float:right; }
+/* FAQs Control */
+.sys_faqs-control { width:100%; position:relative; clear:both; }	
+.sys_faqs-control .sys_itemslist { margin-top:5px; }
+.sys_faqs-control .sys_faqCategory { font-size:1.2em; font-weight:700; margin: 0; padding: 10px 0 5px 0; }
+.sys_faqs-control .sys_subitem { width:100%; border:0 none; margin:.2em 0; padding:0; position:relative; background:none; border-bottom:1px solid #ebebeb; }
+.sys_faqs-control .sys_subitem div.sys_icon { display:none; }
+.sys_faqs-control .sys_subitem .sys_subitem-heading, .sys_faqs-control .sys_subitem .sys_subitem-heading a, .sys_faqs-control .sys_subitem .sys_subitem-summary, .sys_faqs-control .sys_subitem .sys_subitem-summary dl, .sys_faqs-control .sys_subitem .sys_subitem-summary dl dt, .sys_faqs-control .sys_subitem .sys_subitem-summary dl dd { width:auto; display:block; margin:0; padding:0; background:none; position:relative; top:auto; left:auto;}
+.sys_faqs-control .sys_subitem .sys_subitem-heading { padding:.25em 0 .5em 0;}
+.sys_faqs-control .sys_subitem .sys_subitem-heading a { background:url("/aspnet_client/ContensisThemes/simple/faqs/Imgs/Icon_GoTo.png") 100% 50% no-repeat; padding:0 28px 0 10px;}
+/* Closed Item Links */
+.sys_faqs-control .sys_subitem .sys_closed .sys_subitem-heading a { color:#333; background:url("/aspnet_client/ContensisThemes/simple/faqs/Imgs/Icon_Plus.png") 5px 48% no-repeat; padding:0 0 0 28px;}
+/* Open Item Links */
+.sys_faqs-control .sys_subitem .sys_open .sys_subitem-heading a { background:url("/aspnet_client/ContensisThemes/simple/faqs/Imgs/Icon_Minus.png") 5px 48% no-repeat; padding:0 0 0 28px; }
+.sys_faqs-control .sys_subitem .sys_closed .sys_subitem-heading a:hover, .sys_theme-simple .sys_faqs-control .sys_subitem .sys_open .sys_subitem-heading a { color:#000; text-decoration:none;}
+.sys_faqs-control .sys_subitem .sys_subitem-summary dl { margin:0; padding:0 15px 15px 28px; color:#333; width:auto;}
+.sys_faqs-control .sys_itemslist .sys_subitem dl dt { display:none;}
+.sys_faqs-control .sys_itemslist .sys_subitem dl dd { float:none; width:auto;}
+.sys_faqs-control .sys_itemslist .sys_subitem dl dd ul li { border-bottom:0 none;}
+.sys_faqs-control ul.sys_faqs-jumplinks { margin:0 0 15px 0; padding:5px 15px; background:#f7f7f7;}
+.sys_faqs-control ul.sys_faqs-jumplinks li { margin:0; padding:.2em 5px .2em 20px; list-style-type:none; border:0 none; background:url("/aspnet_client/ContensisThemes/simple/Common/Imgs/Bullet.gif") 0 50% no-repeat;}
+
+/* A to Z Extension Control */
+.sys_atoz-control { width:100%; margin:0 0 10px 0; padding:0 0 5px 0; background:none; border-top: 1px solid #ecebeb; border-bottom: 1px solid #ecebeb; clear:both; font-size:1em;}
+.sys_atoz-control ul { display:block; list-style-type:none; margin:5px 5px 0 5px; padding:0; background:none;}
+.sys_atoz-control ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.sys_atoz-control ul li { float:left; display:block; border:0 none; margin:0 4px 0 0; width:1.6em; padding:0; font-weight:700; text-align:center; cursor:pointer;}
+.sys_atoz-control ul li.sys_0to9 { width: 33px; white-space: nowrap;}
+.sys_atoz-control ul li a, .sys_theme-simple .sys_atoz-control ul li span { float:left; position:relative; display:block; padding:.1em 6px; text-decoration: none; color:#333;}
+.sys_atoz-control ul li a:hover { color: #333; text-decoration: none; background:#e3e3e3; }
+.sys_atoz-control ul li.sys_noresults span { font-weight: bold; color: #ccc; cursor:default;}
+.sys_atoz-control ul li.sys_selected a, .sys_theme-simple .sys_atoz-control ul li.sys_selected a:hover { color: #fff; background: #333; text-decoration: none; }
+/* A-Z Current Letter */
+div.sys_atoz-control-currentletter { margin:0 0 15px 0; padding:0 0 0 5px; font-size:2.6em; font-weight:bold; clear:both; color:#3e74d7; }
+div.sys_atoz-control-currentletter big { display:block; line-height:1em;}

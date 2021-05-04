@@ -1,0 +1,44 @@
+/* about us area-specific styles */
+
+#banner-and-navs { background-color: #ec6607; }
+#top-nav { background-color: #ec6607; }
+header h1, #page-heading span { background-color: #ec6607; }
+section h1, section h2 { color: #ec6607; }
+section h3, section h4, section h5, section h6 { color: #ec6607; }
+
+.sys_signposts h2, .sys_signposts h3, .sys_signposts h4, .sys_signposts h5, .sys_signposts h6, .sys_signposts h2 a, .sys_signposts h3 a, .sys_signposts h4 a, .sys_signposts h5 a, .sys_signposts h6  a, aside[class*="sys_cta"] h2 a, aside[class*="sys_cta"] h3 a, aside[class*="sys_cta"] h4 a, aside[class*="sys_cta"] h5 a, aside[class*="sys_cta"] h6 a, .sys_signposts-linksonly li a { /*color: #ec6607;*/ color: #333; }
+
+#page-body aside.sys_quote { background-color: #f68535; } 
+
+#section-nav .sys_container { border-bottom: 1px solid #ec6607; }
+#section-nav ul#section-menu li a:hover { color: #ec6607; }
+#section-nav ul#section-menu li.sys_selected { background-color: #ec6607; }
+
+#active-breadcrumbs { border-bottom: 1px solid #ec6607; }
+#active-breadcrumbs ul.sys_topbread li, #active-breadcrumbs ul.sys_topbread li.sys_topselected, #active-breadcrumbs ul.sys_topbread li.sys_last, #active-breadcrumbs ul.sys_topbread li.sys_last.sys_topselected { background-color: #ec6607;}
+#active-breadcrumbs ul.sys_subnav li.sys_selected a { color: #ec6607; }
+
+@media screen and (max-width:767px) {
+#page-body .sys_section-content .sys_span6 .sys_tabHeading, #page-body .sys_section-content .sys_span12 .sys_tabHeading, #page-body .sys_section-content .sys_span8 .sys_tabHeading { color: #ec6607; }
+}
+
+
+/* styles for when each top element is docked (about us area-specific) */
+body.sys_top-nav-fixed #top-nav { background-color: #ec6607; } 
+
+body.sys_top-header-fixed #page-heading { background-color: #ec6607; }
+
+body.sys_section-nav-fixed #section-nav { background-color: #ec6607;  } 
+
+#page-body .sys_cms-form-control ul.sys_cms-form-body li button { background-color: #ec6607; }
+
+.sys_section-highlight-box { background-color: #ec6607; }
+#page-body section .sys_section-highlight-box h2, #page-body section .sys_section-highlight-box h3, #page-body section .sys_section-highlight-box h4 { border-bottom: 1px solid #fff; }
+
+/* section-specific colour for mini tabs */
+ul.sys_section-tabs li a { color: #d55a03; }
+ul.sys_section-tabs li.sys_selected, .sys_grey ul.sys_section-tabs li.sys_selected { background-color: #ec6607; }
+.sys_next-tab a, .sys_next-tab a:link, .sys_next-tab a:visited, .sys_next-tab a:hover, .sys_next-tab a:active { background-color: #ec6607; }
+
+/* section-specific colour for page rating form */
+.sys_rating-form, .sys_rating-form-title { background-color: #ec6607; }

@@ -1,0 +1,12 @@
+/* import default datatable styles that came with the plug in */
+@import "/mob/css/demo_table.css";
+
+/* hide the datatable (this is shown again once 2 characters are typed into the search box) */
+html.js #countrylistdynamic tr { display: none; }
+
+/* custom datatable styles */
+#countrylistdynamic_filter {background: transparent;font-weight:bold;padding:6px 0 6px 10px; font-size: 12px;}
+ul#course li div#countrylistdynamic_wrapper { width: 380px; padding-top: 0px; }
+ul#course li div#countrylistdynamic_filter { width: auto; }
+ul#course li div#countrylistdynamic_info { width: auto; }
+#countrylistdynamic { margin-bottom: 0px; }

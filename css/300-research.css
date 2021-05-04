@@ -1,0 +1,61 @@
+
+/* research area-specific styles */
+
+#banner-and-navs { background-color: #03a06d; /*background-image: url('../img/banner-research.jpg');*/ }
+#masthead {  }
+#top-nav {  }
+header h1, #page-heading span { background-color: #03a06d; margin-bottom: 6px; }
+section h1, section h2 { color: #000; }
+section h3, section h4, section h5, section h6 { color: #000; }
+.sys_signposts h2, .sys_signposts h3, .sys_signposts h4, .sys_signposts h5, .sys_signposts h6, .sys_signposts h2 a, .sys_signposts h3 a, .sys_signposts h4 a, .sys_signposts h5 a, .sys_signposts h6  a, aside[class*="sys_cta"] h2 a, aside[class*="sys_cta"] h3 a, aside[class*="sys_cta"] h4 a, aside[class*="sys_cta"] h5 a, aside[class*="sys_cta"] h6 a, section .sys_signposts-linksonly li a { color: #333; border-bottom: none; }
+.sys_signposts-linksonly li a:hover { text-decoration: underline; }
+/*#team-tab { display: block; }*/
+
+#page-body aside.sys_quote { background-color: #fff; }
+#page-body aside.sys_quote blockquote { background-image: url('../img/icon-quote-green-research.png'); color: #039f6c; }
+#page-body aside p.sys_pullquote-attr { color: #039f6c; }
+
+#section-nav { border-bottom: 1px solid #03a06d; }
+#section-nav ul#section-menu li a:hover { color: #03a06d; }
+#section-nav ul#section-menu li.sys_selected { background-color: #03a06d; }
+
+#active-breadcrumbs { border-bottom: 1px solid #03a06d; }
+#active-breadcrumbs ul.sys_topbread li, #active-breadcrumbs ul.sys_topbread li.sys_topselected, #active-breadcrumbs ul.sys_topbread li.sys_last, #active-breadcrumbs ul.sys_topbread li.sys_last.sys_topselected { background-color: #03a06d; }
+#active-breadcrumbs ul.sys_subnav li.sys_selected a { color: #03a06d; }
+
+@media screen and (max-width:767px) {
+#page-body .sys_section-content .sys_span6 .sys_tabHeading, #page-body .sys_section-content .sys_span12 .sys_tabHeading, #page-body .sys_section-content .sys_span8 .sys_tabHeading { color: #000; }
+}
+
+
+/* styles for when each top element is docked (about us area-specific) */
+body.sys_top-nav-fixed #top-nav {  } 
+
+body.sys_top-header-fixed #page-heading { background-color: #03a06d; }
+
+body.sys_section-nav-fixed #section-nav {   } 
+
+#page-body .sys_cms-form-control ul.sys_cms-form-body li button { background-color: #03a06d; }
+
+section blockquote { color: #03855C; background: url('../img/icon-quote-green-research.png') no-repeat 6px top; padding: 80px 8px 8px 8px; }
+
+@media screen and (max-width:767px) {
+	section blockquote { background: url('../img/icon-quote-green-research-small.png') no-repeat 6px top; padding: 70px 8px 8px 8px; }
+}
+
+.sys_highlight-box { border-top: 10px solid #03a06d; border-bottom: 4px solid #03a06d; }
+
+/* section-specific colour for mini tabs */
+ul.sys_section-tabs li a { color: #000; }
+ul.sys_section-tabs li.sys_selected, .sys_grey ul.sys_section-tabs li.sys_selected { background-color: #03a06d; }
+.sys_next-tab a, .sys_next-tab a:link, .sys_next-tab a:visited, .sys_next-tab a:hover, .sys_next-tab a:active { background-color: #03a06d; }
+
+/* section-specific colour for page rating form */
+.sys_rating-form, .sys_rating-form-title { background-color: #03a06d; }
+
+/* academic staff search styling */
+.sys_datarepeatercontrol > ul { list-style-type: none; margin-left: 0; }
+.sys_datarepeatercontrol > ul li { margin-bottom: 24px }
+.sys_datarepeatercontrol h3 { margin-bottom: 5px; }
+.sys_datarepeatercontrol h4 { display: none; }
+.sys_datarepeatercontrol ul.sys_definitions { list-style-type: none; margin-left: 0; }

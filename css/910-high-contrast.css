@@ -1,0 +1,438 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {color: #00E1E8; background-color: #333;}
+a { color: #FFFF00; }
+a:hover { color: #00E1E8; }
+
+/* header area styles */
+#masthead { background-color: #333333;}
+
+#masthead-links ul { #ffff00; }
+#masthead-links ul li { border-right: 1px solid #ffff00; }
+#masthead-links ul li a { color: #ffff00;}
+#masthead-links ul li a:hover { text-decoration: underline; background-color: #00E1E8; color: #000;}
+
+#banner-and-navs { background-color: #000000;}
+
+#page-heading a { color: #ffff00; }
+header h1, #page-heading span, section h1 { color: #ffff00; background-color: #000000;}
+section h1 { background-color: transparent; border-top: 1px solid #ffff00; border-bottom: 1px solid #ffff00; }
+
+.sys_top-nav-home { border-right: 1px solid #ffff00; }
+#top-nav { background-color: #000!important; }
+#top-nav .sys_content { background-color: #484848; }
+#top-nav ul#top-nav-menu { color: #FFFF00; background-color: #000; }
+#top-nav ul#top-nav-menu li a { color: #FFFF00; background-color: #000; background:url('../img/top-link-bg-hi.png') no-repeat center right; border-right: 1px solid #ffff00; }
+#top-nav ul#top-nav-menu li a.sys_top-nav-home { background: none; }
+#top-nav ul#top-nav-menu li a:hover { background-color: #00E1E8; color: #000; }
+#top-nav ul#top-nav-menu li.sys_selected a { color: #ffff00; background:url('../img/top-link-bg-hi.png') no-repeat center right; }
+#top-nav ul#top-nav-menu li.sys_selected a { color: #ffff00; background: url('../img/top-link-bg-close-hi.png') no-repeat center right; }
+#top-nav #top-nav-menu > li { background-color: #484848; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_groupheadnolink { color: #ffff00; }
+
+#top-nav .sys_site-search label { background: #ffff00; color: #000; }
+#top-nav .sys_site-search input {color:#ffff00; background-color:#000}
+#top-nav #search-trig span.sys_icon-up-open {display:none;}
+#top-nav #search-trig.sys_active-trig span.sys_icon-up-open {display:block;}
+#top-nav #search-trig.sys_active-trig span.sys_icon-down-open {display:none;}
+
+
+#top-nav ul#top-nav-menu li.sys_mob-side.sys_close a {color:#fff!important;}
+
+#top-nav ul#top-nav-menu .sys_mega-menu { background-color: #000; border: 1px solid #ffff00; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header { background: url('../img/mega-menu-header-bg-hi.png') no-repeat center right; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header a {background:0; color: #ffff00; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header a:hover { color: #00E1E8; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li a {background:0; color: #00E1E8;}
+#top-nav ul#top-nav-menu .sys_mega-cta a {background:0; color:#000!important; background-color:#00E1E8;}
+#top-nav ul#top-nav-menu .sys_mega-col ul li a:hover{color:#ffff00;}
+#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_subheadnolink { color: #00E1E8; }
+#top-nav ul#top-nav-menu .sys_mega-col ul li { background: url('../img/mega-menu-header-bg-hi.png') no-repeat center right; }
+
+.sys_site-search{background-color: #000!important;}
+	
+@media screen and (max-width:980px) {
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li, ul#top-nav-menu li .sys_mega-col ul li a {background:transparent; border:0;}
+	#top-nav ul#top-nav-menu .sys_mega-menu {background-color:#666; border:0;}
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li.sys_group-header {background-color:#555; border:0;}
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li {background-color:#666;}
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li:not(.sys_group-header) {display:none;}
+	#top-nav ul#top-nav-menu li .sys_mega-col ul li a {color:#fff;}
+	#top-nav ul#top-nav-menu li .sys_mega-col .sys_mega-cta a {border:0; background:#fd716a;}
+	#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header a {color:#fff;}
+	#top-nav ul#top-nav-menu .sys_mega-col ul li.sys_group-header {background:0;}
+}
+#section-nav {background: #000;}
+#section-nav .sys_content {background-color: #484848; border-bottom: 1px solid #333333; }
+#section-nav ul#section-menu { color: #FFFF00;}
+#section-nav ul#section-menu li a { color: #FFFF00; text-decoration: none;}
+#section-nav ul#section-menu li a:hover { background-color:#00E1E8; color: #000; }
+#banner-and-navs #section-nav ul#section-menu li.sys_selected a { color: #000; border-right: none; }
+#banner-and-navs #section-nav ul#section-menu li.sys_selected a:hover { background-color: #00E1E8; color: #000; }
+#section-nav ul#section-menu li.sys_selected { background-color: #00E1E8; color:#000; }
+#banner-and-navs #section-nav ul#section-menu li a.sys_last, #banner-and-navs #section-nav ul#section-menu li a.sys_first { border-right: none; }
+#section-nav ul#section-menu li {background-color: #000;}
+#section-nav ul#section-menu li:hover{background-color: #00E1E8;}
+#section-nav ul#section-menu li:hover a{color: #000;}
+
+/* end of header area styles */
+ 
+/* page body area styles */
+#page-body section { background-color: #333; }
+section.sys_grey, .sys_back-to-top.sys_grey { background-color: transparent; }
+section.sys_white { background-color: #444444;}
+section h2, section .sys_span6 h2 { color: #ffff00; background-color: #333333; border-top: 1px solid #ffff00; border-bottom: 1px solid #ffff00; }
+section h3, section .sys_span6 h3 { color: #ffff00; background-color: #333333; border-top: 1px solid #ffff00; border-bottom: 1px solid #ffff00; }
+section h4, section .sys_span6 h4 { color: #ffff00; background-color: #333333; border-top: 1px solid #ffff00; border-bottom: 1px solid #ffff00; }
+section .sys_span6 h2, section .sys_span6 h3, section .sys_span6 h3, section .sys_span6 h4, section .sys_span6 h5, section .sys_span6 h6 { border: none; color: #ffff00; }
+section .sys_span6 h2, section .sys_span8 h2, section .sys_span4 h2, section .sys_section-content-tab h2, section .sys_subheads h2 { color: #ffff00; }
+section .sys_span6 h2, section .sys_span8 h2, section .sys_span4 h2, section .sys_section-content-tab h2, section .sys_subheads h2 { color: #ffff00; }
+section .sys_span6 h3, section .sys_span8 h3, section .sys_span4 h3, section .sys_section-content-tab h3, section .sys_subheads h3 { color: #ffff00; }
+section .sys_span6 h4, section .sys_span8 h4, section .sys_span4 h4, section .sys_section-content-tab h4, section .sys_subheads h4 { color: #ffff00; }
+section .sys_span6 h5, section .sys_span8 h5, section .sys_span4 h5, section .sys_section-content-tab h5, section .sys_subheads h5 { color: #ffff00; }
+section .sys_span6 h6, section .sys_span8 h6, section .sys_span4 h6, section .sys_section-content-tab h6, section .sys_subheads h6 { color: #ffff00; }
+section address { background: #000; }
+section ul { background: #000; }
+section table caption { color: #ffff00; }
+section table, section table th, section table td { border: 1px solid #00E1E8;  background-color: #000; }
+section table th { color: #FFFF00; }
+section h3, section h4, section h5, section h6 { color: #ffff00 !important; }
+
+/* dark-grey-section used for intro box at the top of each page */ 
+.sys_dark-grey-section { background-color: #000; color: #00E1E8;}
+section .sys_dark-grey-section p {background-color:#000;}
+#page-body .sys_video-image .sys_caption { background-color: #000000;}
+#page-body .sys_video-image .sys_play-arrow {background: url('../img/play-arrow-res-high.png') no-repeat top right;}
+#page-body .sys_video-image .sys_play-arrow-hover { background: url('../img/play-arrow-res-high.png') no-repeat top right; }
+#page-body .sys_video-image .sys_caption p {color: #00E1E8; background: transparent;}
+.sys_dark-grey-section a { color: #ff0; } 
+
+/* entry requirements on course page */
+.sys_entry-reqs, .sys_key-facts { background-color: #000; color: #00E1E8;}
+section .sys_entry-reqs h3, section .sys_key-facts h3 {color: #ffff00; border-color: #fff; background-color: #000 }
+
+/* list of fees on course page */
+section p.sys_fees-list {border-bottom: 1px solid #6d6e71;}
+
+.sys_signposts {background-color: #000;}
+section .sys_signposts h3 {color: #ffff00; background-color: #000;}
+.sys_signposts h3 a {color: #FFFF00; background-color: #000 }
+.sys_signposts h3 a:hover { text-decoration: underline; background-color: #00E1E8; color: #000; }
+.sys_signposts h4 {color: #FFFF00; background-color: #000;}
+.sys_signposts h4 a, #page-body .sys_signposts .carousel h4 a {color: #FFFF00; text-decoration: none; background-color: #000;}
+.sys_signposts h4 a:hover { text-decoration: underline; background-color: #00E1E8; color: #000;}
+.sys_signposts img {background-color: #000; }
+
+/* smaller text sizes for signposts on three column pages (rather than two column) */
+.sys_signposts .sys_span4 h3, .sys_signposts .sys_span3 h3 {background-color: #000;}
+.sys_signposts .sys_span3 h3 {background-color: #333333;}
+.sys_signposts .sys_span h3 a:hover { text-decoration: underline; background-color: #00E1E8; color: #000; }
+.sys_signposts .sys_span4 h4, .sys_signposts .sys_span3 h4 {background-color: #000; }
+
+.sys_signposts h2 a, .sys_signposts h3 a, .sys_signposts h4 a, .sys_signposts h5 a, .sys_signposts h6 a { color: #FFFF00; }
+section .sys_signposts h2, section .sys_signposts h3, section .sys_signposts h4, section .sys_signposts h5, section .sys_signposts h6, .sys_signposts-linksonly li a { color: #FFFF00; }
+section .sys_signposts .carousel h4 a, section .sys_signposts .carousel h3 a { color: #ff0; }
+
+/* large quote stripe across page with quote marks image */
+aside.sys_quote { background-color: #333; }
+aside.sys_quote p { color: #ffff00;}
+
+
+/* set of tabs within an individual section */
+ul.sys_section-tabs li {background-color: #c0bab5;}
+ul.sys_section-tabs li a { color: #000000; background-color: #00E1E8; text-decoration: none;}
+ul.sys_section-tabs li.sys_selected { background-color: #f6f5f5;  } 
+ul.sys_section-tabs li.sys_selected a { color: #00E1E8; background-color: #000; }
+ul.sys_section-tabs li a:hover { color: #000; background-color: #00E1E8; }
+
+section .sys_section-content { background-color: #000;}
+.sys_section-content h3 {color: #6d6e71;  background-color: #333333}
+#page-body .sys_section-content h4 {background-color: #000; }
+.sys_course-page .sys_section-content h3 {color: #ffff00; background-color: #000}
+#page-body .sys_section-content p {color: #00E1E8;}
+.sys_section-content li {color: #00E1E8;}
+
+.sys_grey ul.sys_section-tabs li.sys_selected { background-color: #fff; }
+.sys_grey .sys_section-content { background-color: #000; }
+
+#page-body .sys_section-content .sys_span6 .sys_tabHeading, #page-body .sys_section-content .sys_span12 .sys_tabHeading, #page-body .sys_section-content .sys_span8 p.sys_tabHeading { color: #ffff00; }
+
+
+/* end of page body styles */ 
+
+/* footer styles */
+footer { background-color: #000000;}
+footer .sys_footer-block { color: #00E1E8;}
+footer .sys_footer-block h2 {color: #FFFF00;}
+footer .sys_footer-block h2 a {color:#FFFF00;}
+footer .sys_footer-block h2 a:hover {color:#FFFF00;}
+footer .sys_footer-block p, footer .sys_footer-block address, footer .sys_footer-block li {background: #000;}
+footer .sys_footer-block a { color: #00E1E8; }
+footer .sys_footer-block select { color: #929292;}
+footer .sys_footer-block li a { background: url('/_design/img/mega-menu-header-bg-hi.png') no-repeat right center; }
+
+
+/* styles for when each top element is docked (generic to all pages) */
+body.sys_top-nav-fixed #top-nav { background-color: #ec3e4f;} 
+
+body.sys_top-header-fixed #page-heading { background-color: #000000;}
+/* end of docked styles */
+
+/* active breadcrumbs styles */
+#active-breadcrumbs { background-color: #000;  border-bottom: 1px solid #333333; }
+#active-breadcrumbs ul.sys_topbread { color: #929292;}
+#active-breadcrumbs ul.sys_topbread li { background: url('../img/active-breadcrumb-menu-link-bg-highcontrast.png') no-repeat right center #000; }
+#active-breadcrumbs ul.sys_topbread li.sys_last { background: url('../img/active-breadcrumb-menu-link-bg-highcontrast.png') no-repeat right center #99465c; }
+#active-breadcrumbs ul.sys_topbread li.sys_topselected, #active-breadcrumbs ul.sys_topbread li.sys_last.sys_topselected { background: url('../img/active-breadcrumb-menu-link-bg-highcontrast.png') no-repeat right center #99465c; }
+#active-breadcrumbs ul.sys_topbread li a { color: #ffff00; text-decoration: none; }
+#active-breadcrumbs ul.sys_topbread li { background-color: #000 !important;}
+#active-breadcrumbs ul.sys_topbread li:hover { background-color: #00E1E8; color:#000; }
+#active-breadcrumbs ul.sys_topbread li a:hover{ color: ##ffff00 !important; }
+
+/*overrides for accessibility contrast colours*/
+
+#active-breadcrumbs ul.sys_topbread li.sys_last { background-color:#000; color: #ffff00;}
+#active-breadcrumbs ul.sys_topbread li.sys_last:hover { background-color: #00E1E8; color:#000;}
+
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected { color: #ffff00; background: none; }
+#header #active-breadcrumbs ul.sys_topbread li.sys_selected a { color: #929292; border-right: none; }
+
+#active-breadcrumbs ul.sys_subnav { background-color: #000; border: 1px solid #FFFF00; }
+#header #active-breadcrumbs ul.sys_subnav li { background: none; }
+#active-breadcrumbs ul.sys_subnav li a { color: #ffff00; text-decoration: none; display: block; }
+
+#header #active-breadcrumbs ul.sys_subnav li.sys_group-header a { color: #00E1E8; }
+#header #active-breadcrumbs ul.sys_subnav li.sys_selected { color: #00E1E8; }
+#header #active-breadcrumbs ul.sys_subnav li.sys_selected a { color: #00E1E8; }
+
+
+
+/* research area-specific styles */
+
+.sys_research #banner-and-navs { background-color: #333;}
+.sys_research #top-nav { background-color: #000; }
+.sys_research h1 { background-color: #000; color: #ffff00; }
+.sys_research h1  a{ background-color: #000; color: #ffff00; }
+.sys_research h2 { color: #FFFF00; background-color: #000; }
+.sys_research h3 { color: #FFFF00; background-color: #000; }
+
+/* accommodation area-specific styles */
+
+.sys_living-here #banner-and-navs { background-color: #333333;}
+.sys_living-here #top-nav { background-color: #333333; }
+.sys_living-here h1 { background-color: #000; color:#ffff00; }
+.sys_living-here h2 { color: #ffff00; background-color: #000}
+.sys_living-here h3 { color: #ffff00; background-color: #000}
+.sys_living-here th { color: #00E1E8; background-color: #000}
+
+.sys_living-here #section-nav .sys_container { border-bottom: 0; }
+.sys_living-here #section-nav ul#section-menu li a { border-right: 1px solid #c6c6c7; }
+.sys_living-here #section-nav ul#section-menu li a:hover { background-color: #00E1E8; color: #000; }
+.sys_living-here #section-nav ul#section-menu li.sys_selected { background-color: #00E1E8; }
+
+
+@media screen and (max-width:980px) {
+	#section-nav .sys_container {border-bottom:0!important;}
+}
+
+.sys_living-here #active-breadcrumbs { border-bottom: 0; }
+.sys_living-here #active-breadcrumbs ul.sys_subnav li.sys_selected { color: #00b5d9; }
+.sys_living-here #active-breadcrumbs ul.sys_subnav li.sys_selected a { color: #00b5d9;}
+.sys_living-here #active-breadcrumbs ul.sys_topbread li.sys_last:hover { background-color:#00E1E8;}
+
+
+/* course page-specific styles */
+
+.sys_course-page #banner-and-navs { background-color: #333333;}
+.sys_course-page #top-nav { background-color: #333333; }
+.sys_course-page h1 { background-color: #6fa97d; background-color: #333333; color: #ffff00;}
+.sys_course-page h2 { color: #ffff00; background-color: #000 }
+.sys_course-page h3 { color: #ffff00; background-color: #000}
+
+#course-nav .sys_container { /*overflow: auto;*/ border-bottom: 1px solid #000; } 
+
+#course-nav ul { color: #fff;}
+#course-nav ul li a:hover {color: #00E1E8; background-color: transparent;}
+#course-nav ul li a {color: #ffff00; text-decoration: none; background-color: transparent;  }
+#course-nav li {background-color: #000;}
+#course-nav li.sys_apply {background-color: #00E1E8;}
+#course-nav li.sys_apply a {color: #000;}
+#course-nav li.sys_selected {background-color: #00E1E8;}
+#course-nav li.sys_selected a, #course-nav li.sys_selected a:hover{ background-color: #00E1E8; color: #000; }
+
+#related h2 span.sys_number { color: #00E1E8; }
+
+/* styles for when each top element is docked (research area-specific) */
+
+body.sys_top-nav-fixed #top-nav { background-color: #333333; } 
+
+body.sys_top-header-fixed #page-heading { background-color: #333333;}
+body.sys_top-header-fixed #section-nav { background-color: transparent; }
+
+body.sys_section-nav-fixed #section-nav { background-color: #000;} 
+body.sys_section-nav-fixed #active-breadcrumbs {background-color: #fff;}
+body.sys_section-nav-fixed #active-breadcrumbs {background-color: #000;}
+/* end of docked styles for research pages */
+
+
+/* styles for when each top element is docked (living here area-specific) - REVISIT THIS WHEN COURSE PAGE IS DONE - SOME COULD BE DELETED */
+
+body.sys_top-nav-fixed #top-nav {background-color: #333;} 
+
+body.sys_top-header-fixed #page-heading { background-color: #333;}
+
+body.sys_section-nav-fixed #active-breadcrumbs {background-color: #fff;}
+body.sys_section-nav-fixed #active-breadcrumbs {background-color: #000;}
+/* end of docked styles for living here pages */
+
+
+/* styles for when each top element is docked (course page-specific) - REVISIT THIS WHEN COURSE PAGE IS DONE - SOME COULD BE DELETED */
+
+body.sys_top-nav-fixed #top-nav { background-color: #333; } 
+
+body.sys_top-header-fixed #page-heading, body.sys_top-header-fixed header h1 { background-color: #000;}
+
+body.sys_course-nav-fixed #course-nav {background-color: #000;} 
+body.sys_course-nav-fixed #course-nav li.sys_selected, body.sys_course-nav-fixed #course-nav li.sys_apply { background-color: #00E1E8;}
+body.sys_course-nav-fixed #course-nav li.sys_selected a:hover{color: #333;}
+body.sys_course-nav-fixed #course-nav li.sys_selected a, body.sys_course-nav-fixed #course-nav li.sys_apply a {color: #333333;}
+body.sys_course-nav-fixed #course-nav li.sys_apply a:hover {color: #000! important;}
+body.sys_course-nav-fixed #course-nav li  a:hover {color: #00E1E8;}
+
+
+/* end of docked styles for course pages */
+
+
+/* special width adjustments to try to bring the header and footer into Bootstrap but with their own widths */
+#top-nav .sys_container, #top-nav .sys_span12 {background-color: #000; }
+#top-nav .sys_container {background-color: #000;}
+#section-nav .sys_container {background-color: #000; border-bottom: 1px solid #333333; }
+
+
+/* VERY IMPORTANT - accessibility: focus on links when using the keyboard to scroll through site */
+
+#header a:focus, #header a:active, nav a:focus, nav a:active, #top-nav-menu li:focus, #top-nav-menu li:active, h1 a:focus, h1 a:active, h2 a:focus, h2 a:active, h3 a:focus, h3 a:active, h4 a:focus, h4 a:active, #page-body a:focus, #page-body a:active, footer a:focus, footer a:active {background-color: #00E1E8 !important; color: #000; outline: solid; outline-color:#00E1E8; border:0; outline-style:none !important;}
+#page-body ul.sys_section-tabs li.sys_selected a:focus { background-color: #000000 !important; color: #00E1E8; }
+#header #active-breadcrumbs a:focus { background-color: transparent !important; }
+
+.sys_mobile-apply-now {background:#000!important;}
+.sys_mobile-apply-now a:hover{color:#FFF!important;}
+
+/*.sys_play-arrow{background: url('/_design/img/play-arrow-res-high.png') no-repeat center right !important;}*/
+.sys_styled-select{background: #FFF url('../img/formelements-select-res-high.png') no-repeat center right !important;}
+.sys_signposts h4.sys_link-arrow {background: url('../img/footer-li-link-res-high.gif') no-repeat right top;}
+section .sys_signposts h3 {background: none;}
+.sys_signposts .sys_span4 h3, .sys_signposts .sys_span3 h3 {background: url('../img/footer-li-link-res-high.gif') no-repeat right center;}
+.sys_living-here #active-breadcrumbs ul.sys_topbread li.sys_last {background: url('../img/active-breadcrumb-menu-link-bg-res-high.png') no-repeat right center #000;}
+aside.sys_quote .sys_inner-content {background: url('../img/quote-row-bg-res-high.png') no-repeat top left;}
+.sys_grey .sys_previous-heading-link {background: url('../img/prev-heading-grey-on-white-res-high.png') no-repeat top left;}
+/*.sys_previous-heading-link {background: url('../img/prev-heading-grey-on-white-res-high.png') no-repeat top left;}*/
+#top-nav ul#top-nav-menu .sys_mega-cta {background-color: #000;}
+#top-nav ul#top-nav-menu li .sys_mega-col .sys_mega-cta a{background-color: #000; color: #FFF!important;}
+
+.sys_highlight-box { background: #000; }
+.sys_highlight-box p { color: #00E1E8; }
+.sys_entry-reqs, .sys_key-facts, .sys_highlight-box { color: #00E1E8; }
+section .sys_highlight-box h2, section .sys_highlight-box h3, section .sys_highlight-box h4 { border-bottom: 1px solid #00E1E8; border-top: 1px solid #00E1E8; color: #00E1E8 !important; background-color: #000; }
+
+/* CTA bar high contrast styles */
+.sys_cta-bar-primary, .sys_cta-bar-secondary { background: url('../img/cta-bg-highcontrast-noicon.png') no-repeat right top; }
+.sys_cta-bar-primary a, .sys_cta-bar-secondary a { color: #FFFF00; }
+.sys_cta-bar-primary a:hover, .sys_cta-bar-secondary a:hover { color: #00E1E8; text-decoration: underline; }
+#page-body .sys_cta-bar-primary p.sys_cta-subtext, #page-body .sys_cta-bar-secondary p.sys_cta-subtext { color: #00E1E8; }
+#page-body .sys_cta-bar-no-arrow p.sys_cta-no-arrow-header { color: #FFFF00; }
+
+/* full-width pull quote, and text color of in-column quote */
+#page-body aside.sys_quote { background-color: #000; }
+#page-body aside.sys_quote blockquote, section blockquote { color: #00E1E8; }
+
+/* aside CTAs */
+aside[class*="sys_cta"] h2 a, aside[class*="sys_cta"] h3 a, aside[class*="sys_cta"] h4 a, aside[class*="sys_cta"] h5 a, aside[class*="sys_cta"] h6 a { color: #FFFF00; }
+aside[class*="sys_cta"] h2, aside[class*="sys_cta"] h3, aside[class*="sys_cta"] h4, aside[class*="sys_cta"] h5, aside[class*="sys_cta"] h6 { border-top: 1px solid #ffff00; }
+aside[class*="sys_cta"] { border-bottom: 1px solid #ffff00; }
+
+#page-body section .imagecaption, #page-body section .sys_dark-grey-section .imagecaption, #page-body section .videocaption, #page-body section .sys_dark-grey-section .videocaption { color: #00E1E8; }
+
+/* form styles */
+#page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_sectionbreak .sys_sectionbreak-header, #page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_cms-form-item { color: #00E1E8; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li input, #page-body .sys_cms-form-control ul.sys_cms-form-body li select, #page-body .sys_cms-form-control ul.sys_cms-form-body li textarea, #page-body .sys_cms-form-control ul.sys_cms-form-body li label, #page-body .sys_cms-form-control ul.sys_cms-form-body li .sys_legend, #page-body .sys_cms-form-control ul.sys_cms-form-body li .sys_fieldlabel, #page-body .sys_cms-form-control ul.sys_cms-form-body li div label, #page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_sectionbreak .sys_sectionbreak-text, #page-body .sys_cms-form-control ul.sys_cms-form-body li.sys_cms-form-item div { color: #00E1E8; }
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .sys_uneditable-input { background-color: #000; border: 1px solid #FFFF00; color: #FFFF00; }
+#page-body .sys_theme-simple.sys_formrendercontrol-themed { background: #000; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li button { color: #FFFF00; background: #000; border: 1px solid #FFFF00; }
+#page-body .sys_cms-form-body .sys_instructions { background: #000; border: 1px solid #FFFF00; }
+
+/* Colours for the event calendar */
+#event-calendar-container .sys_cal-event-cell { background-color: #000000;}
+#event-calendar-container .sys_fc-state-highlight { border: 3px solid #ff0;} /* Light salmon */
+#event-calendar-container h2{ color: #ff0;} /* Salmon */
+
+#event-calendar-container .sys_cal-event-normal{     background-color: #00f; border-color: #ff0; color: #fff; } /* Study here blue */
+#event-calendar-container .sys_cal-event-compact{    background-color: #0ff; border-color: #ff0; color: #000; } /* Interesting wine */
+#event-calendar-container .sys_cal-event-he-sv{      background-color: #ff0; border-color: #ff0; color: #000; } /* About us taupe */
+#event-calendar-container .sys_cal-event-postgrad{   background-color: #a20000; border-color: #ff0; color: #fff; } /* Research red */
+#event-calendar-container .sys_cal-event-applicant{  background-color: #830083; border-color: #ff0; color: #ff0; } /* International purple */
+#event-calendar-container .sys_cal-event-ug-campus{  background-color: #83ff83; border-color: #ff0; color: #000; } /* Living here green */
+
+#event-calendar-container .fc-state-default {
+  background-image: none;
+  background-color: #000;
+  color: #0ff;
+}
+
+.qtip.qtip-default .qtip-titlebar{background-color: #0ff; color: #000;}
+.qtip.qtip-default .qtip-content{background-color: #ff0; color: #00f;}
+
+/* For Contensis Event listing */
+#page-body .sys_theme-simple .sys_events-control {
+    background-color: #000;
+}
+
+#page-body .sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl dt {
+    color: #fff;
+}
+
+#page-body .sys_theme-simple .sys_datarepeatercontrol .sys_subitem {
+    background-color: #000 !important;
+}
+/* End Contensis Event listing */
+
+/* News listings */
+
+.sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem dl dd.sys_news-description { color: #00E1E8; }
+.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_navigationnext a, .sys_theme-simple .sys_flickrpager .sys_navigation span.sys_navigationprevious a { color: #ff0; }
+.sys_theme-simple .sys_flickrpager .sys_navigation span.sys_selected span { color: #00E1E8; }
+.sys_theme-simple .sys_datarepeatercontrol .sys_subitem { border: 1px solid #ff0; }
+#page-body .sys_theme-simple .sys_itemslist .sys_subitem .sys_subitem-heading { border-bottom: 1px solid #ff0; }
+#page-body .sys_theme-simple .sys_datarepeatercontrol .sys_subitem dl dt { color: #00E1E8; }
+
+/* End news listings */
+
+/* course search boxes */
+section .sys_searchcontrol .sys_searchboxheader { color: #ff0; border-bottom: 1px solid #ff0; }
+section .sys_searchcontrol { background-color: #000; border: 1px solid #ff0; }
+
+/* course search results */
+section .sys_courseresults h3 a { color: #ff0; } 
+
+.sys_highlight-box a { color: #ff0; }
+.sys_highlight-box a:hover { color: #ff0; }
+
+/* course data capture form */
+#page-body #contact .sys_course-data-capture .sys_sectionbreak-header { color: #00E1E8; } 
+#contact .sys_course-data-capture .sys_cms-form-control ul.sys_cms-form-body li label, #contact .sys_course-data-capture .sys_cms-form-control ul.sys_cms-form-body li .sys_legend { color: #00E1E8; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li input { color: #ff0; }
+#contact .sys_course-data-capture ul li.sys_buttons button { background-color: #484848; color: #ff0; }
+	
+#page-body aside p.sys_pullquote-attr { color: #ff0; }
+
+/* open days keyword search */
+.sys_odays-keyword-search { background: #000; border: 1px solid #ff0; }
+.sys_odays-keyword-search label { color: #ff0; border-bottom: 1px solid #ff0; }
+
+/* additions for new campaign pages */
+.sys_signposts-plink .sys_span4 a, .sys_signposts-plink .sys_span6 a { color: #ff0; }
+h1 span.title-first-line, h1 span.title-first-line-all-yellow, h1 span.title-middle-line, h1 span.title-last-line, #page-body aside.sys_quote, .sys_cta-bar-campaign { background-color: #000; }
+.sys_cta-bar-campaign a { color: #ff0; }
+#page-body section .sys_cta-call-us p { color: #ff0; }
+#page-body section .sys_cta-call-us .sys_cta-subtext p { color: #ff0; }

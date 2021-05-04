@@ -1,0 +1,326 @@
+@media screen and (min-width:1100px) {
+#masthead {
+    padding-top: 8px;
+}
+#banner-img {
+    width: 100% !important;
+    height: auto !important;
+    position: static;
+    margin-left: 0;
+}
+#banner-img img {
+    width: 100%;
+    height: auto;
+}
+#page-heading {
+    width: 1100px;
+    padding-top: 0;
+    margin-top: -28px;
+}
+header h1, #page-heading span {
+    padding: 4px 85px 4px 18px;
+}
+header h1 {
+    font-size: 1.9em;
+}
+#page-heading span {
+    height: 44px;
+    font-size: 1.925rem;
+}
+#top-nav {
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+#top-nav ul#top-nav-menu .sys_mega-menu {
+    top: 52px;
+}
+#banner-and-navs {
+    height: auto;
+}
+body.sys_top-nav-fixed #top-nav {
+    padding-bottom: 6px;
+    height: 40px;
+    padding-top: 8px;
+}
+body.sys_top-nav-fixed #page-heading {
+    padding-top: 0;
+}
+body.sys_top-nav-fixed #banner-img {
+    padding-top: 51px;
+}
+#section-nav .sys_container, #section-nav .sys_span12, #active-breadcrumbs .sys_container, #active-breadcrumbs .sys_span12 {
+    width: 1100px;
+    max-width: 100%;
+}
+#section-nav ul#section-menu {
+    font-size: 1.05rem;
+}
+.sys_container {
+    width: 1100px !important;
+}
+#top-nav .sys_container, #top-nav .sys_span12 {
+    width: 1100px;
+}
+#masthead .sys_container, #masthead .sys_span12 {
+    width: 1100px;
+}
+#top-nav .sys_site-search input {
+    width: 400px;
+}
+#top-nav ul#top-nav-menu {
+    font-size: 0.9625rem;
+}
+#header #active-breadcrumbs ul.sys_subnav li.sys_group-header {
+    font-size: 1.075rem;
+    background-position: right 13px;
+}
+#header #active-breadcrumbs ul.sys_subnav li, #header #active-breadcrumbs ul.sys_subnav li.sys_selected {
+    font-size: 1rem;
+    background-position: right 9px;
+}
+.sys_row {
+    margin-left: -24px;
+}
+[class*="sys_span"] {
+    margin-left: 24px;
+}
+.sys_span12 {
+    width: 1100px;
+}
+.sys_span8 {
+    width: 724px;
+}
+.sys_span6 {
+    width: 538px;
+}
+.sys_span4 {
+    width: 350px;
+}
+.sys_span3 {
+    width: 257px;
+}
+section .sys_section-content-tab {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.sys_section-content-tab .sys_span12:first-child, .sys_section-content-tab .sys_span6:first-child, .sys_section-content-tab .sys_span8:first-child, .sys_section-content-tab .sys_span4:first-child, .sys_multi-row-tab .sys_span6:first-child, .sys_multi-row-tab .sys_span8:first-child, .sys_multi-row-tab .sys_span4:first-child, .sys_multi-row-tab .sys_span12:first-child {
+    padding-left: 24px;
+}
+.sys_section-content-tab .sys_span12:first-child {
+    width: 1052px;
+    max-width: 1052px;
+}
+.sys_section-content-tab .sys_span6 {
+    width: 514px;
+}
+.sys_section-content-tab .sys_span6:first-child {
+    width: 514px;
+}
+.sys_section-content-tab .sys_span8:first-child {
+    width: 692px;
+}
+.sys_section-content-tab .sys_span4 {
+    width: 334px;
+}
+#page-body section p {
+    font-size: 1.19rem;
+    line-height: 1.74rem;
+    margin: 0 0 16px;
+}
+#page-body section .sys_entry-reqs p, #page-body section .sys_key-facts p, #page-body section .sys_highlight-box p {
+    margin: 0 0 6px;
+}
+#page-body aside.sys_quote blockquote {
+    font-size: 1.49rem;
+}
+#page-body section blockquote p {
+    font-size: 1.49rem;
+}
+#page-body aside.sys_pullstat p {
+    font-size: 1.49rem;
+}
+#page-body aside p.sys_pullstat-attr {
+    font-size: 1.2rem;
+}
+#page-body section ul li, #page-body section ol li {
+    font-size: 1.19rem;
+    line-height: 1.74rem;
+}
+#page-body section ul ul li, #page-body section ol ol li {
+    font-size: 1.19rem;
+}
+#page-body section ul ul, #page-body section ol ol {
+    padding-top: 4px;
+}
+#page-body section .sys_intro-para p:first-child, .intro-para {
+    font-size: 1.28rem !important;
+}
+section .sys_signposts .sys_span6 h2, section .sys_signposts .sys_span6 h3, section .sys_signposts .sys_span6 h4, section .sys_signposts .sys_span6 h5, section .sys_signposts .sys_span6 h6, section .sys_signposts .sys_span4 h2, section .sys_signposts .sys_span4 h3, section .sys_signposts .sys_span4 h4, section .sys_signposts .sys_span4 h5, section .sys_signposts .sys_span4 h6 {
+    font-size: 1.18rem;
+}
+#page-body section .sys_signposts .sys_span6 p, #page-body section .sys_signposts .sys_span6 p, #page-body section .sys_signposts .sys_span6 p, #page-body section .sys_signposts .sys_span6 p, #page-body section .sys_signposts .sys_span6 p, #page-body section .sys_signposts .sys_span4 p, #page-body section .sys_signposts .sys_span4 p, #page-body section .sys_signposts .sys_span4 p, #page-body section .sys_signposts .sys_span4 p, #page-body section .sys_signposts .sys_span4 p {
+    font-size: 1.14rem;
+}
+.sys_signposts-plink .sys_span4 h2, .sys_signposts-plink .sys_span4 h3, .sys_signposts-plink .sys_span4 h4, .sys_signposts-plink .sys_span4 h5, .sys_signposts-plink .sys_span4 h6, .sys_signposts-plink .sys_span6 h2, .sys_signposts-plink .sys_span6 h3, .sys_signposts-plink .sys_span6 h4, .sys_signposts-plink .sys_span6 h5, .sys_signposts-plink .sys_span6 h6 {
+    font-size: 1.19rem;
+}
+#page-body section .sys_signposts-plink .sys_span6 p, #page-body section .sys_signposts-plink .sys_span6 p, #page-body section .sys_signposts-plink .sys_span6 p, #page-body section .sys_signposts-plink .sys_span6 p, #page-body section .sys_signposts-plink .sys_span6 p, #page-body section .sys_signposts-plink .sys_span4 p, #page-body section .sys_signposts-plink .sys_span4 p, #page-body section .sys_signposts-plink .sys_span4 p, #page-body section .sys_signposts-plink .sys_span4 p, #page-body section .sys_signposts-plink .sys_span4 p {
+    font-size: 1.14rem;
+}
+#page-body .sys_section-content h2, #page-body .sys_section-content h3, #page-body .sys_section-content h4, #page-body .sys_section-content h5 {
+    font-size: 1.14rem;
+}
+#page-body section .sys_blog-feature h3 {
+    font-size: 1.3em;
+}
+#page-body section .sys_blog-feature p {
+    font-size: 1.24em;
+}
+#page-body section .sys_section-content [class*="sys_span"] p {
+    font-size: 1.14rem;
+    margin-bottom: 16px; 
+    line-height: 1.67rem;
+}
+#page-body .sys_section-content .sys_span6 .sys_tabHeading, #page-body .sys_section-content .sys_span12 .sys_tabHeading, #page-body .sys_section-content .sys_span8 .sys_tabHeading {
+    font-size: 1.1375rem;
+}
+#page-body section .sys_section-content li {
+    font-size: 1.11rem;
+    line-height: 1.554rem;
+}
+#page-body section .sys_section-content [class*="sys_span"] blockquote p {
+    font-size: 1.49rem;
+}
+#page-body [class*="sys_span"] li p, #page-body .sys_section-content [class*="sys_span"] li p {
+    font-size: 1em;
+}
+.sys_cta-bar-primary, .sys_cta-bar-secondary {
+    max-width: 542px;
+}
+#page-body .sys_cta-bar-primary p, #page-body .sys_cta-bar-secondary p, #page-body section .sys_section-content [class*="sys_span"] .sys_cta-bar-primary p, #page-body section .sys_section-content [class*="sys_span"] .sys_cta-bar-secondary p {
+    font-size: 0.89rem;
+    line-height: 1.16rem;
+}
+#page-body section .sys_section-content [class*="sys_span"] .sys_cta-bar-primary p, #page-body section .sys_section-content [class*="sys_span"] .sys_cta-bar-secondary p {
+    margin-bottom: 0;
+}
+section h1, section h2, section h3, section h4 {
+    padding-top: 8px;
+}
+section .sys_span6 h2, section .sys_span8 h2, section .sys_span4 h2, section .sys_section-content-tab h2, section .sys_subheads h2 {
+    font-size: 1.4rem;
+}
+section .sys_span6 h3, section .sys_span8 h3, section .sys_span4 h3, section .sys_section-content-tab h3, section .sys_subheads h3 {
+    font-size: 1.31rem;
+}
+section .sys_span6 h4, section .sys_span8 h4, section .sys_span4 h4, section .sys_section-content-tab h4, section .sys_subheads h4, section .sys_span6 h5, section .sys_span8 h5, section .sys_span4 h5, section .sys_section-content-tab h5, section .sys_subheads h5 {
+    font-size: 1.225rem;
+}
+#page-body .sys_cta4 h2, #page-body .sys_cta4 h3, #page-body .sys_cta4 h4, #page-body .sys_cta4 h5, #page-body .sys_cta4 h6, #page-body .sys_section-content .sys_highlight-box h2, #page-body .sys_section-content .sys_highlight-box h3, #page-body .sys_section-content .sys_highlight-box h4, #page-body .sys_section-content .sys_highlight-box h5, #page-body .sys_section-content .sys_highlight-box h6 {
+    font-size: 1.18rem;
+}
+#page-body section ul.sys_section-tabs li {
+    font-size: 0.87rem;
+    line-height: 30px;
+}
+ul.sys_section-tabs li a {
+    padding: 6px 16px;
+}
+section table th, section table td {
+    font-size: 1.25em;
+}
+section table td ul {
+    font-size: 0.77em;
+}
+#page-body section .sys_section-content [class*="sys_span"] td p {
+    font-size: 1em;
+}
+#page-body section [class*="sys_span"] td li p { 
+    font-size: 1em;
+}
+footer .sys_span12 {
+    width: 1100px;
+}
+footer .sys_fourColWidth {
+    width: 330px;
+}
+section .sys_span12 .sys_searchcontrol input[type="text"] {
+    width: 1010px;
+}
+section .sys_span6 .sys_searchcontrol input[type="text"] {
+    width: 450px;
+}
+section .sys_span4 .sys_searchcontrol input[type="text"] {
+    width: 266px;
+}
+#page-body .sys_cms-form-control ul.sys_cms-form-body li label {
+    font-size: 1.1em;
+}
+.sys_span12 iframe.sys_youtube, .sys_span12 .sys_video-swap {
+    max-width: 1100px;
+    height: 617px;
+}
+.sys_span8 iframe.sys_youtube, .sys_span8 iframe.sys_respiframe, .sys_span8 .sys_video-swap {
+    max-width: 727px;
+    height: 408px;
+}
+.sys_span6 iframe.sys_youtube, .sys_span6 iframe.sys_respiframe, .sys_span6 .sys_video-swap {
+    max-width: 542px;
+    height: 305px;
+}
+.sys_span4 iframe.sys_youtube, .sys_span4 iframe.sys_respiframe, .sys_span4 .sys_video-swap {
+    max-width: 350px;
+    height: 196px;
+}
+.sys_section-content-tab .sys_span6 iframe.sys_youtube, .sys_section-content-tab .sys_span6 iframe.sys_respiframe, .sys_section-content-tab .sys_span6 .sys_video-swap {
+    max-width: 525px;
+    height: 295px;
+}
+.imagecaption, #page-body section .imagecaption {
+    font-size: 1.1em !important;
+}
+/* specific pieces of functionality */
+.sys_odays-keyword-search input[type="text"] {
+    width: 632px;
+}
+#page-body section .sys_halls-filters-group p {
+    width: 90px;
+    font-size: 1.2em;
+}
+.sys_halls-filters-col-right p {
+    width: 80px;
+}
+section .sys_hall .sys_360link, section .sys_hall .sys_maplink {
+    font-size: 1.2em;
+}
+section .sys_searchcontrol {
+    padding: 10px 16px 20px 16px;
+}
+.sys_pull-stat .sys_stat-content {
+    padding: 32px 32px 20px 32px;
+}
+#page-body aside.sys_pull-stat p {
+    font-size: 1.6em;
+}
+#page-body aside p.sys_pullquote-attr {
+    font-size: 1.25em;
+}
+.sys_discstat {
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+.sys_discstat-inner {
+    font-size: 2.3em !important;
+}
+.sys_disc-small-text .sys_discstat-inner { 
+    font-size: 1.2em !important; 
+}
+
+.sys_cta-bar-campaign {
+    max-width: 100%;
+}
+#page-body section .sys_intro-para .sys_faqs-control p:first-child {
+    font-size: 1.36em !important; 
+}
+
+}

@@ -1,0 +1,49 @@
+@media (min-width: 768px) and (max-width: 979px) {
+#masthead .sys_container, #masthead .sys_span12, #top-nav .sys_container, #top-nav .sys_span12, #section-nav .sys_container, #section-nav  .sys_span12, 
+#active-breadcrumbs .sys_container, #active-breadcrumbs .sys_span12, footer .sys_container, footer .sys_span12 {
+    width: 724px;
+  }
+  #top-nav .sys_container, #top-nav .sys_span12 , #top-nav nav { width: 724px; max-width: 100%; }
+#page-heading { width: 724px; padding-top: 166px; }
+#page-heading h1, #page-heading span { width: 90%; padding-right: 0px; }
+#page-heading h1 { padding-left: 10px; }
+/*.sys_video-image { width: auto; max-width: 100%; }*/
+.sys_dark-grey-section .sys_span6, .sys_dark-grey-section .sys_span4, .sys_dark-grey-section .sys_span8, .sys_dark-grey-section.sys_span8 { width: auto; max-width: 100%; }
+.sys_dark-grey-section { margin-left: 30px; margin-right: 10px; }
+.sys_dark-grey-section .sys_span6, .sys_dark-grey-section .sys_span4, .sys_dark-grey-section .sys_span8 { margin-left: 0; padding: 0 16px; }
+.sys_dark-grey-section.sys_span8 { margin-left: 30px; margin-right: 10px; margin-bottom: 8px; }
+.sys_dark-grey-section .sys_span12:first-child { padding: 0; margin-left: 0;  width: auto; max-width: 100%; }
+
+/* extra fix for odd widths on ipad - not sure why? */
+/*.sys_container, .sys_span12 { max-width: 100%; width: 724px; }*/
+}
+
+@media (max-width: 767px) {
+#masthead .sys_container, #top-nav .sys_container, #section-nav .sys_container, #active-breadcrumbs .sys_container, footer .sys_container  {
+    width: auto;
+  }
+  
+
+#masthead .sys_span12, #top-nav .sys_span12, #section-nav  .sys_span12, #active-breadcrumbs .sys_span12, footer .sys_span12 {
+    width: 100%;
+}
+#page-heading { width: 100%; padding-top: 166px; }
+#page-heading h1, #page-heading span { /*width: 90%;*/ padding-right: 0px; }
+#page-heading h1 { padding-left: 10px; }
+.sys_video-image { width: auto; max-width: 385px; }
+.sys_dark-grey-section .sys_span12:first-child { /*padding-right: 0px;*/ width: auto; max-width: 100%; }
+.sys_dark-grey-section .sys_span6, .sys_dark-grey-section .sys_span4, .sys_dark-grey-section .sys_span8, .sys_dark-grey-section.sys_span8 { width: auto; max-width: 100%; }
+.sys_dark-grey-section .sys_span6, .sys_dark-grey-section .sys_span4, .sys_dark-grey-section .sys_span8 { margin-left: 0; padding: 0 16px; }
+.sys_dark-grey-section.sys_span8 { margin-bottom: 8px; }
+.sys_dark-grey-section .sys_span12:first-child { padding: 0 16px; margin-left: 0; }
+
+
+[class*="sys_span"] img,
+  .sys_uneditable-input[class*="sys_span"],
+  .sys_row-fluid [class*="sys_span"] img {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,114 @@
+body { font-size: 15px; font-variant-ligatures: none; -moz-font-feature-settings: "liga" 0; -ms-font-feature-settings: "liga" 0; -webkit-font-feature-settings: "liga" 0; font-feature-settings: "liga" 0; }
+#banner-and-navs { background-color: #f6f5f5; height: 370px;  }
+#banner-img { height: 370px; position: relative; width: 1200px; margin-left: -600px; top: 0; z-index: 1; }
+#banner-mask { position: absolute; top: 0; left: 0; height: 370px; width: 100%; background: url('../img/campaign-banner-mask.png') repeat-x left top; }
+#uob-logo { position: absolute; width: 990px; left: 50%; margin-left: -495px; z-index: 2; top: 12px; } 
+#uob-logo a:focus { outline: 1px dashed #fff; }
+#uob-logo img { padding-left: 74px; }
+
+#page-title { position: absolute; bottom: 20px; left: 165px; width: 812px; } 
+header h1 { font-family: "brandonbold",Arial,sans-serif; color: #fff; font-size: 2.3em; line-height: 1.1em; font-weight: normal; margin: 0; text-transform: uppercase; background-color: transparent; position: relative; }
+h1 span.title-first-line { padding: 12px 14px 12px 14px; display: inline-block; }
+h1 span.title-middle-line { padding: 4px 14px 4px 14px; display: inline-block; position: relative; top: -12px; }
+h1 span.title-last-line { padding: 4px 14px 12px 14px; display: inline-block; position: relative; top: -14px; }
+
+.title-yellow { color: #feed00; }
+h1 span.title-first-line-all-yellow { padding: 12px 14px 12px 14px; display: inline-block; color: #feed00; }
+h1 span.title-last-line-all-yellow { padding: 4px 14px 12px 14px; display: inline-block; position: relative; top: -14px; color: #feed00; }
+
+.sys_cta-bar-campaign { width: 100%; max-width: 398px; height: 80px; color: #fff; font-size: 0.9em; margin-top: 16px; margin-bottom: 8px; position: relative; overflow: hidden; }
+section .sys_cta-bar-campaign p a { font-family: "brandonbold", Arial, sans-serif; font-size: 1.8em; font-weight: normal; color: #fff; display: block; height: 20px; padding: 30px 80px 30px 27px; position: absolute; top: 0px; left: 0px; right: 0px; z-index: 2; text-decoration: none; text-transform: uppercase; }
+section .sys_cta-bar-campaign p a:hover, section .sys_cta-bar-campaign p a:focus  { color: #fff; }
+.sys_cta-anchor a { background: url("../img/cta-anchor-down.png") no-repeat right 17px; }
+.sys_cta-anchor-up a { background: url("../img/cta-anchor-up.png") no-repeat right 17px; }
+.sys_cta-question a { background: url("../img/cta-campaign-qmark.png") no-repeat right 17px; }
+.sys_cta-link a { background: url("../img/cta-campaign-link.png") no-repeat right 17px; }
+#page-body section .sys_cta-call-us p { background: url("../img/cta-campaign-phone.png") no-repeat right 17px; font-family: "brandonbold", Arial, sans-serif; font-size: 1.7em; line-height: 1.1em; font-weight: normal; color: #fff; display: block; height: 48px; padding: 16px 80px 16px 27px; position: absolute; top: 0px; left: 0px; right: 0px; z-index: 2; text-decoration: none; text-transform: uppercase; }
+.sys_cta-multi-line a { font-size: 1.7em; line-height: 1.1em; height: 48px; padding: 16px 80px 16px 27px; }
+.sys_cta-openday a { font-size: 1.7em; }
+.sys_cta-with-subtext a { font-size: 1.5em; line-height: 1.1em; height: 48px; padding: 16px 80px 16px 27px; }
+#page-body section .sys_cta-with-subtext .sys_cta-subtext { position: absolute; top: 42px; left: 27px; }
+#page-body section .sys_cta-with-subtext .sys_cta-subtext p { font-family: "brandonbold", Arial, sans-serif; font-size: 1.25em; font-weight: normal; color: #fff; text-transform: uppercase; margin-bottom: 0; } 
+#page-body section .sys_cta-call-us .sys_cta-subtext p { font-family: "brandonbold", Arial, sans-serif; font-size: 1.1em; font-weight: normal; color: #fff; text-transform: uppercase; margin-bottom: 0; background: none; padding: 4px 0 0 0; height: auto; margin: 0; position: static; }
+/* fix for responsetab number styling on mobiles */
+#page-body section .sys_cta-call-us span a { padding: 0; font-size: 1em; position: relative; display: inline; height: auto; }
+
+ol li { padding-bottom: 8px; padding-left: 8px; }
+
+.sys_courses-list { padding-bottom: 16px; }
+.sys_signposts-plink .sys_span4 a, .sys_signposts-plink .sys_span6 a { background: url("../img/go-header-link-bg-14px.gif") no-repeat scroll right 8px transparent }
+#page-body aside.sys_quote blockquote { font-size: 1.4em; }
+footer .sys_span12 { height: 24px; }
+
+@media screen and (max-width:1200px) {
+	#banner-and-navs { max-width: 100%; overflow: hidden; }
+	#banner-img { overflow: hidden; height: 370px; }
+}
+@media screen and (max-width:990px) {
+      #page-body section .sys_cta-multi-line a { font-size: 1.4em; padding: 19px 80px 16px 21px; }
+}
+@media screen and (max-width:979px) {
+	#uob-logo { width: 724px; margin: auto; left: 50%; margin-left: -362px; } 
+	#uob-logo img { padding-left: 0px; margin-left: -4px;  }
+	#page-title { width: 724px; margin: auto; left: 50%; margin-left: -362px; }
+	header h1 { padding: 4px; padding: 8px 12px; } 
+	h1 span.title-first-line, h1 span.title-first-line-all-yellow, h1 span.title-last-line, h1 span.title-middle-line  { display: inline; top: 0; padding: 0; }
+	.sys_cta-bar-campaign a { font-size: 1.5em; padding-left: 20px; }
+	#page-body section .sys_cta-with-subtext .sys_cta-subtext { display: none; }
+	#page-body section .sys_cta-call-us p { padding: 30px 80px 30px 27px; }
+	.sys_cta-openday a { line-height: 1.1em; height: 48px; padding: 16px 80px 16px 27px; }
+}
+
+@media screen and (max-width:767px) {
+	.sys_cta-bar-campaign a { font-size: 1.8em; padding-left: 30px; }
+	#page-body section .sys_cta-with-subtext a { font-size: 1.5em; }
+	#page-body section .sys_cta-with-subtext .sys_cta-subtext { display: block; left: 30px; }
+	#page-body section .sys_cta-call-us p { padding: 16px 80px 16px 27px; }
+}
+@media screen and (max-width:724px) {
+	#banner-and-navs { height: auto; }
+	#uob-logo { max-width: 100%; left: 24px; top: 16px; margin-left: 0; }
+	#banner-img { max-width: 100%; margin: auto; height: auto; }
+	#banner-img img { width: auto; height: 217px; margin-left: -351px; }
+	#page-title { max-width: 100%; position: static; margin-left: 0; margin-top: 217px; }
+	
+}
+@media screen and (max-width:450px) {
+	.sys_cta-bar-campaign a { font-size: 1.5em; padding: 22px 80px 22px 25px; line-height: 1.1em; }
+	#page-body section .sys_cta-with-subtext .sys_cta-subtext { display: block; left: 25px; }
+}
+@media screen and (max-width:398px) {
+	.sys_cta-bar-campaign a { font-size: 1.5em; padding: 22px 80px 22px 25px; }
+	.sys_cta-with-subtext a { padding: 16px 80px 16px 25px; } 
+	#page-body section .sys_cta-with-subtext .sys_cta-subtext { display: none; }
+	#page-body section .sys_cta-multi-line a { font-size: 1.2em; padding: 23px 80px 16px 15px; }
+}
+			
+			
+/* colour separation */
+h1 span.title-first-line, h1 span.title-first-line-all-yellow, h1 span.title-middle-line, h1 span.title-last-line, .sys_cta-bar-campaign { background-color: #0e8282; }
+#page-body aside.sys_quote { background-color: #fff; }
+#page-body aside.sys_quote blockquote { background-image: url('../img/icon-quote-green.png'); color: #333; }
+section h2, section h3, section h4 { color: #000; }
+#page-body aside p.sys_pullquote-attr { color: #000;}
+@media screen and (max-width:979px) {
+	header h1 {  background-color: #0e8282; }
+	
+}
+
+/* new styles for campaign page forms */
+.sys_theme-simple.sys_formrendercontrol-themed { padding: 12px 18px; background: #f3f1e5; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body li button { font-size: 1.4em; padding: 18px 20px; display: block; margin: auto; width: 100%; text-transform: uppercase; }
+#page-body .sys_cms-form-control ul.sys_cms-form-body { margin-bottom: -6px; }
+#page-body .sys_cms-form-body .sys_sectionbreak { padding-top: 2px; padding-bottom: 4px; }
+
+@media screen and (min-width: 1100px) {
+	#page-title { left: 50%; margin-left: -506px; }
+}
+
+.sys_span6:first-child .sys_carousel-content {
+    padding: 24px 30px;
+}
+#page-body section .sys_carousel-content p {
+    font-size: 1.4rem;
+}
