@@ -29,6 +29,8 @@ header h1 { position: absolute; top: 40px; left: -200%; z-index: -200; padding: 
 	text-decoration: none;
 }
 
+.sys_footer-announcement { margin-bottom: 0; margin-top: 30px; }
+
 .sys_weather-and-emerg h1, .sys_weather-and-emerg h2, .sys_weather-and-emerg h3 { text-transform: uppercase; font-family: 'brandonbold', Arial, sans-serif; }
 
 #homepage-banners {  }

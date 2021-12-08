@@ -290,3 +290,19 @@ section .sys_blog-feature a.sys_blog-feature-link { display: block; border-botto
 	padding-right: 20px;
 	border-bottom: none;
 }
+
+/* course delivery statements */
+.sys_delivery-statement {
+	column-count: 2;
+	column-gap: 24px;
+}
+.sys_delivery-statement p {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+@media screen and (max-width:767px) { 
+	.sys_delivery-statement {
+		column-count: 1;
+	}
+}

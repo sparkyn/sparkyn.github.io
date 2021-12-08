@@ -180,7 +180,7 @@ section #halls-filters h3 { color: #fff; }
 #halls-filters input { margin-right: 10px; }
 #halls-filters label { margin-right: 15px; }
 .sys_halls-filters-group { overflow: auto; clear: both; padding-bottom: 6px; }
-.sys_halls-filters-col-right .sys_halls-filters-group { max-width: 344px; }
+.sys_halls-filters-col-right .sys_halls-filters-group { max-width: 346px; }
 .sys_halls-filters-group p { float: left; margin-right: 10px; margin-bottom: 2px; width: 80px; }
 .sys_halls-filters-contract label { margin-bottom: 2px; }
 .sys_halls-filters-contract input { clear: left; }
@@ -196,6 +196,8 @@ section .sys_hall .sys_span6 h3 { border-top: 1px solid #000; padding-top: 8px; 
 .sys_hall li a { cursor: pointer; }
 section .sys_hall .sys_360link, section .sys_hall .sys_maplink { cursor: pointer; display: block; margin-top: 8px; background: #da3949; color: #fff; padding: 16px 0px; text-align: center; }
 section .sys_hall .sys_360link:hover, section .sys_hall .sys_maplink:hover { color: #fff; }
+section .sys_hall .sys_halls-image-carousel { padding-bottom: 38px; }
+section .sys_hall .slick-dots.sys_halls-dots { bottom: 0; }
 
 @media screen and (max-width:980px) {
 	.sys_halls-filters-group p, .sys_halls-filters-contract p { float: none; }
@@ -228,3 +230,217 @@ section .sys_hall .sys_360link:hover, section .sys_hall .sys_maplink:hover { col
 	border-top: none;
 	margin-top: 24px;
 }
+
+/* open day page styles */
+#subjectSelector { 
+	font-size: 1.5em; 
+	width: 300px; 
+	max-width: 100%;
+	line-height: 1.6em; 
+	height: 2.2em; 
+	border: 6px solid #da3949; 
+	border-radius: 0; 
+	box-sizing: border-box; 
+	background: #da3949; 
+	color: #fff; 
+} 
+.sys_subject-panel h2 { 
+	background:url('../img/go-header-link-bg-18px-down.gif') no-repeat right 10px; 
+	cursor: pointer; 
+} 
+.sys_subject-panel h2.close { 
+	background:url('../img/go-header-link-bg-18px-close.gif') no-repeat right 10px; 
+} 
+.sys_virtual-tours-container-border { 
+	margin-top: 24px; 
+	border: 1px solid #f13f20; 
+	padding-bottom: 24px; 
+	padding-top: 125px; 
+	background: url('../img/look-around-360-slim.png') no-repeat top center; 
+} 
+.sys_virtual-tours-container-border h3, .sys_virtual-tours-container-border h4, .sys_virtual-tours-container-border p, .sys_virtual-tours-container-border ul { 
+	padding: 0 24px 0 24px; 
+} 
+.sys_virtual-tours-container-border h3 { 
+	padding-top: 24px; 
+} 
+.sys_virtual-info-desk-box { 
+	width: 717px; 
+	max-width: 100%; 
+	margin: auto; 
+	background: url('../img/university-life-and-advice-2.png') no-repeat top center; 
+	padding: 175px 20px 20px 20px; 
+	box-sizing: border-box; 
+	border: 1px solid #f13f20; 
+	text-align: center; 
+	overflow: auto; 
+} 
+.sys_virtual-info-desk-box ul {
+    width: 50%;
+    max-width: 100%;
+    margin: 0;
+    text-align: left;
+    list-style-image: none;
+    list-style-type: none;
+    float: left;
+}
+#page-body section .sys_virtual-info-desk-box ul li {
+    font-size: 1.1rem;
+}
+@media screen and (max-width:480px) {
+	.sys_virtual-info-desk-box ul {
+		width: auto;
+		max-width: 100%;
+		margin-left: 16px;
+		float: none;
+	}
+}
+.live-chat-link, .live-chat-link:visited { 
+	padding: 10px 20px 10px 20px; 
+	text-align: center; 
+	margin: auto; 
+	text-transform: uppercase; 
+	border: 1px solid #f13f20; 
+	display: inline-block;
+}
+.live-chat-link:hover, .live-chat-link:active, .live-chat-link:focus {
+    background: #da3949;
+    color: #fff;
+	border: 1px solid #da3949; 
+	outline: none;
+}
+/* starting at uni styles */
+.hide-on-mobiles { display: initial; }
+@media screen and (max-width:767px) {
+	.hide-on-mobiles { display: none !important; }
+}
+@media screen and (max-width: 980px) {
+	.sys_span4 .sys_span4 {
+		padding: 0 20px 0 0;
+	}
+}
+.sys_split-panel { width: 50%; padding: 0; margin: 0; overflow: auto; }
+.sys_split-right { float: right; }
+.sys_split-left { float: left; }
+@media screen and (max-width:767px) {
+	.sys_split-panel { width: auto; max-width: 100%; }
+	.sys_split-right { float: none; }
+	.sys_split-left { float: none; }
+}
+#page-body section .sys_panel-blog-carousel {
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+}
+.sys_blogpost-image-title {
+	background: #f2f2f2;
+}
+.sys_blogpost-image {
+	max-width: 100%;
+	width: 100%;
+}
+.sys_blogpost-title {
+	padding: 20px 10px 20px 116px;
+	background: url('../img/icon-quote-pink-studying.png') no-repeat 10px center;
+}
+#page-body section .sys_blogpost-title h3, #page-body section .sys_blogpost-title h4, #page-body section .sys_blogpost-title h5 {
+	padding: 0;
+	margin: 0;
+	color: #c92ead;
+	min-height: 58px;
+}
+.sys_blogpost-author {
+	padding-left: 116px;
+}
+.sys_blogpost-text { 
+	padding: 20px
+};
+#page-body section .sys_blogpost-text p {
+	font-size: 1.13rem;
+	line-height: 1.68rem;
+}
+@media screen and (max-width:980px) {
+	.sys_blogpost-image-title {
+		background: #fff;
+	}
+	#page-body section .sys_blogpost-image img {
+		max-width: 100%;
+		width: 100%;
+	}
+	.sys_blogpost-title {
+    	min-height: 35px;
+	}
+}
+
+#page-body section .sys_split-left {
+    background: #f2f2f2;
+    height: 260px;
+    padding: 22px 50px;
+    box-sizing: border-box;
+}
+#page-body section .sys_split-left h2 {
+    font-size: 2.2em;
+	margin-bottom: 8px;
+	padding-top: 0;
+}
+#page-body section .sys_split-left p {
+    font-size: 1.3em;
+    margin-bottom: 12px;
+}
+#page-body section .sys_split-left a {
+    display: inline-block;
+    color: #333;
+    padding: 2px 20px;
+    border: 3px solid #da3949;
+    text-transform: uppercase;
+    line-height: 48px;
+    text-align: center;
+    font-family: 'brandon', Arial, sans-serif;
+    font-size: 1em;
+}
+#page-body section .sys_split-left a:hover, #page-body section .sys_split-left a:focus {
+    color: #fff;
+    background: #da3949;
+	text-decoration: none;
+}
+@media screen and (max-width:1100px) {
+	#page-body section .sys_split-left { 
+		height: 234px; 
+		padding: 15px 50px;
+	}
+}
+@media screen and (max-width:980px) { 
+	#page-body section .sys_split-left {
+		height: 166px; 
+		padding: 10px 30px;
+		overflow: hidden;
+	}
+	#page-body section .sys_split-left h2 {
+    	font-size: 1.6em;
+		margin-bottom: 8px;
+		padding-top: 0;
+	}
+	#page-body section .sys_split-left a {
+		padding: 2px 10px;
+		line-height: 32px;
+		margin-top: -8px;
+	}
+	#page-body section .sys_split-left p {
+		font-size: 1.1em;
+	}
+}
+@media screen and (max-width:767px) { 
+	#page-body section .sys_split-left {
+    	background: #fff;
+		text-align: center;
+		height: auto;
+	}
+	#page-body section .sys_split-left h2 {
+    	font-size: 2.5em;
+	}
+	#page-body section .sys_split-left a {
+		padding: 2px 20px;
+		line-height: 48px;
+		margin-top: 8px;
+	}
+}
+#page-body legend { border: none; }

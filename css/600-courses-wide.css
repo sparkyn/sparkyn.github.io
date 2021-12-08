@@ -1,16 +1,16 @@
 @media screen and (min-width:1100px) {
 
-body.sys_top-header-fixed #page-heading { top: 49px; margin-top: 0; }
-body.sys_top-header-fixed #course-nav { padding-top: 0; }
-body.sys_course-nav-fixed #course-nav { top: 97px; }
-body.sys_course-nav-fixed #banner-img { padding-bottom: 78px; }
-body.sys_top-header-fixed header h1 { width: 1090px; }
-.sys_panel-image-carousel .sys_slick-dots.slick-dots { top: 535px; }
-#course-nav { height: 56px; }
-#course-nav ul { font-size: 1.15em; }
-#course-nav ul li a, #course-nav ul li a:focus, #course-nav ul li a:active, #course-nav ul li a:hover { padding: 10px 16px 14px 16px; }
-.carousel { height: 280px; }
-#page-body #relatedCarousel ul li { padding-right: 16px; width: 150px; font-size: 1.1em; }
-
-}
-
+    body.sys_top-header-fixed #page-heading { top: 49px; margin-top: 0; }
+    body.sys_top-header-fixed #course-nav { padding-top: 0; }
+    body.sys_course-nav-fixed #course-nav { top: 97px; }
+    body.sys_course-nav-fixed #banner-img { padding-bottom: 78px; }
+    body.sys_top-header-fixed header h1 { width: 1090px; }
+    .sys_panel-image-carousel .sys_slick-dots.slick-dots { top: 535px; }
+    #course-nav { height: 56px; }
+    #course-nav ul { font-size: 1.15em; }
+    #course-nav ul li a, #course-nav ul li a:focus, #course-nav ul li a:active, #course-nav ul li a:hover { padding: 10px 16px 14px 16px; }
+    .carousel { height: 280px; }
+    #page-body #relatedCarousel ul li { padding-right: 16px; width: 150px; font-size: 1.1em; }
+    
+    }
+    

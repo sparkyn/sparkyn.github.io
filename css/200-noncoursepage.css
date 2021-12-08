@@ -319,7 +319,7 @@ footer, .sys_back-to-top { position: relative; z-index: 40; }
 /* uob styles for FAQ module */
 #page-body section .sys_faqs-control .sys_datarepeatercontrol { padding-left: 0; padding-right: 0; }
 #page-body section .sys_faqs-control .sys_itemslist .sys_subitem .sys_subitem-heading a { padding-left: 28px; background-position: 5px 17px; }
-#page-body section .sys_intro-para .sys_faqs-control p:first-child { font-family: 'Avenir-Regular', Arial, sans-serif; font-size: 1.13em !important; font-weight: normal; }
+#page-body section .sys_intro-para .sys_faqs-control p:first-child {     font-family: 'Avenir-Regular', Arial, sans-serif; font-size: 1.13em !important; font-weight: normal; }
 
 /* clear button for open day listing search  */
 .sys_clear-search { background: #919191; color: #fff; display: inline-block; margin-bottom: 16px; }
@@ -369,3 +369,4 @@ section .sys_blog-feature a.sys_blog-feature-link { display: block; border-botto
 }
 
 #page-body section ul li { margin-bottom: 3px; font-size: 1.05em; }
+#page-body section table td li { font-size: 0.9em; }

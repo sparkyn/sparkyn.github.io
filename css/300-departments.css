@@ -11,7 +11,6 @@ section h3, section h4, section h5, section h6 { color: #000; }
 
 #page-body aside.sys_quote { background-color: #fff; }
 #page-body aside.sys_quote blockquote { background-image: url('../img/icon-quote-green-departments.png'); color: #008383; }
-#page-body aside p.sys_pullquote-attr { color: #008383; }
 
 #section-nav { border-bottom: 1px solid #00a6a6; }
 #section-nav ul#section-menu li a:hover { color: #00a6a6; }
