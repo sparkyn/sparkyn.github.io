@@ -217,6 +217,8 @@ main {
 
 .multi-row.dividers {
     padding: 0 30px;
+    background: url('../aphrodite/img/geometric-bg.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .multi-row.dividers h3 {
